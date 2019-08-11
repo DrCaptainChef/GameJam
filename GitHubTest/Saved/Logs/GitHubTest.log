@@ -581,3 +581,15 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.08.11-18.11.52:626][150]LogSlate: Window 'Save Content' being destroyed
 [2019.08.11-18.11.52:639][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Test2" FILE="../../../../../../Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset" SILENT=true
 [2019.08.11-18.11.52:644][150]LogSavePackage: Moving '../../../../../../Document/GitHub/GameJam/GitHubTest/Saved/BP_Test22CE3171B45F9B2FE8D64B7AD3987F374.tmp' to '../../../../../../Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset'
+[2019.08.11-18.15.06:688][192]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Test.BP_Test
+[2019.08.11-18.15.07:418][192]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2019.08.11-18.15.29:435][606]LogSlate: Window 'BP_Test' being destroyed
+[2019.08.11-18.15.29:437][606]LogSlate: Window 'BP_Test' being destroyed
+[2019.08.11-18.15.30:877][761]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Test.BP_Test
+[2019.08.11-18.15.32:307][885]LogSlate: Window 'Tutorials' being destroyed
+[2019.08.11-18.15.52:604][301]BlueprintLog: New page: Compile BP_Test
+[2019.08.11-18.15.52:746][301]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2019.08.11-18.15.53:401][376]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Test" FILE="../../../../../../Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test.uasset" SILENT=true
+[2019.08.11-18.15.53:405][376]LogSavePackage: Moving '../../../../../../Document/GitHub/GameJam/GitHubTest/Saved/BP_Test68326056470FB374AA8018A87552163E.tmp' to '../../../../../../Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test.uasset'
+[2019.08.11-18.15.54:714][531]LogSlate: Window 'BP_Test' being destroyed
+[2019.08.11-18.15.54:716][531]LogSlate: Window 'BP_Test' being destroyed
