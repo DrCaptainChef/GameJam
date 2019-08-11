@@ -75,3 +75,9 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+GitHubTest/Intermediate/CachedAssetRegistry.bin
+GitHubTest/Saved/Autosaves/PackageRestoreData.json
+GitHubTest/Saved/AutoScreenshot.png
+GitHubTest/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+GitHubTest/Saved/Config/Windows/Engine.ini
+GitHubTest/Saved/Logs/GitHubTest.log
