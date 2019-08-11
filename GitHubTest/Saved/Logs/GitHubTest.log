@@ -1,4 +1,4 @@
-﻿Log file open, 08/11/19 14:11:18
+﻿Log file open, 08/11/19 16:15:30
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: GitHubTest
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.237865
+LogStats: Stats thread started at 0.238439
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -125,7 +125,7 @@ LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
 LogInit: Compiled with Visual C++: 19.16.27025.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.22
-LogInit: Command Line: 
+LogInit: Command Line:  -EpicPortal -epicusername=DrCaptainChef -epicuserid=bc86f720e8f94099a80fbe7e284258ee -epiclocale=en-US
 LogInit: Base Directory: D:/Games/Epic Games Store/UE_4.22/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
@@ -156,440 +156,1567 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Engine.ini]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Engine.ini]
-[2019.08.11-18.11.18:744][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Engine.ini]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Engine.ini]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.08.11-18.11.18:744][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.08.11-18.11.18:745][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.08.11-18.11.18:745][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Engine.ini]
-[2019.08.11-18.11.18:745][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Engine.ini]
-[2019.08.11-18.11.18:750][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.08.11-18.11.18:750][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.08.11-18.11.18:751][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.08.11-18.11.18:751][  0]LogInit: Selected Device Profile: [Windows]
-[2019.08.11-18.11.18:751][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.08.11-18.11.18:757][  0]LogHAL: Display: Platform has ~ 8 GB [8529100800 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2019.08.11-18.11.18:757][  0]LogInit: Going up to parent DeviceProfile []
-[2019.08.11-18.11.18:757][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.08.11-18.11.18:757][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
-[2019.08.11-18.11.18:758][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.08.11-18.11.18:758][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.08.11-18.11.18:758][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.08.11-18.11.18:758][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.08.11-18.11.18:758][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.08.11-18.11.18:758][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.08.11-18.11.18:758][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.08.11-18.11.18:758][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.08.11-18.11.18:758][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.08.11-18.11.18:758][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.08.11-18.11.18:758][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.08.11-18.11.18:758][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.08.11-18.11.18:758][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.08.11-18.11.18:758][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
-[2019.08.11-18.11.18:758][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.08.11-18.11.18:758][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.08.11-18.11.18:758][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.08.11-18.11.18:758][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.08.11-18.11.18:758][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.08.11-18.11.18:758][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Engine.ini]
-[2019.08.11-18.11.18:758][  0]LogInit: Computer: PIERRE-DESKTOP
-[2019.08.11-18.11.18:758][  0]LogInit: User: Pierre
-[2019.08.11-18.11.18:758][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.08.11-18.11.18:758][  0]LogInit: High frequency timer resolution =3.515673 MHz
-[2019.08.11-18.11.18:758][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2019.08.11-18.11.18:758][  0]LogMemory: Platform Memory Stats for Windows
-[2019.08.11-18.11.18:758][  0]LogMemory: Process Physical Memory: 99.50 MB used, 99.50 MB peak
-[2019.08.11-18.11.18:758][  0]LogMemory: Process Virtual Memory: 93.02 MB used, 93.02 MB peak
-[2019.08.11-18.11.18:758][  0]LogMemory: Physical Memory: 6010.23 MB used,  2123.75 MB free, 8133.98 MB total
-[2019.08.11-18.11.18:758][  0]LogMemory: Virtual Memory: 514.67 MB used,  8388093.00 MB free, 8388608.00 MB total
-[2019.08.11-18.11.18:775][  0]LogInit: Using OS detected language (fr-CA).
-[2019.08.11-18.11.18:775][  0]LogInit: Using OS detected locale (fr-CA).
-[2019.08.11-18.11.18:775][  0]LogTextLocalizationManager: No specific localization for 'fr-CA' exists, so the 'fr' localization will be used.
-[2019.08.11-18.11.18:775][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
-[2019.08.11-18.11.18:775][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
-[2019.08.11-18.11.18:775][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
-[2019.08.11-18.11.18:775][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
-[2019.08.11-18.11.18:775][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
-[2019.08.11-18.11.18:776][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
-[2019.08.11-18.11.18:776][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
-[2019.08.11-18.11.18:776][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
-[2019.08.11-18.11.18:776][  0]LogWindows: File 'shcore.dll' does not exist
-[2019.08.11-18.11.18:776][  0]LogInit: Setting process to DPI aware
-[2019.08.11-18.11.18:792][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.08.11-18.11.18:792][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.08.11-18.11.18:915][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.08.11-18.11.18:915][  0]LogD3D11RHI: D3D11 adapters:
-[2019.08.11-18.11.18:945][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
-[2019.08.11-18.11.18:945][  0]LogD3D11RHI:       4002/0/3810 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.08.11-18.11.18:945][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.08.11-18.11.18:949][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.08.11-18.11.18:950][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
-[2019.08.11-18.11.18:950][  0]LogWindows: EnumDisplayDevices:
-[2019.08.11-18.11.18:950][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
-[2019.08.11-18.11.18:950][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:1)
-[2019.08.11-18.11.18:950][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
-[2019.08.11-18.11.18:950][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
-[2019.08.11-18.11.18:950][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
-[2019.08.11-18.11.18:950][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2019.08.11-18.11.18:950][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
-[2019.08.11-18.11.18:950][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2019.08.11-18.11.18:950][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
-[2019.08.11-18.11.18:950][  0]LogD3D11RHI:   Driver Version: 431.60 (internal:26.21.14.3160, unified:431.60)
-[2019.08.11-18.11.18:950][  0]LogD3D11RHI:      Driver Date: 7-17-2019
-[2019.08.11-18.11.18:950][  0]LogRHI: Texture pool is 2801 MB (70% of 4002 MB)
-[2019.08.11-18.11.18:966][  0]LogD3D11RHI: Async texture creation enabled
-[2019.08.11-18.11.18:971][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.08.11-18.11.18:972][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.08.11-18.11.18:972][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.08.11-18.11.18:983][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.08.11-18.11.19:255][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.08.11-18.11.19:266][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.08.11-18.11.19:276][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.08.11-18.11.19:287][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.08.11-18.11.19:297][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.08.11-18.11.19:309][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.08.11-18.11.19:321][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.08.11-18.11.19:332][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.08.11-18.11.19:336][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.08.11-18.11.19:404][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.08.11-18.11.19:404][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.08.11-18.11.19:404][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.08.11-18.11.19:404][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.08.11-18.11.19:404][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.08.11-18.11.19:404][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.08.11-18.11.19:404][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.08.11-18.11.19:404][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.08.11-18.11.19:404][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.08.11-18.11.19:404][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.08.11-18.11.19:404][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.08.11-18.11.19:404][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.08.11-18.11.19:404][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.08.11-18.11.19:404][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.08.11-18.11.19:404][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.08.11-18.11.19:404][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.08.11-18.11.19:404][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.08.11-18.11.19:404][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.08.11-18.11.19:405][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.08.11-18.11.19:448][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.08.11-18.11.19:448][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.08.11-18.11.19:467][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.08.11-18.11.19:467][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.08.11-18.11.19:477][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.08.11-18.11.19:487][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.08.11-18.11.19:496][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.08.11-18.11.19:506][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.08.11-18.11.19:542][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.08.11-18.11.19:542][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.08.11-18.11.19:542][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.08.11-18.11.19:547][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.08.11-18.11.19:574][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (../../../../../../Document/GitHub/GameJam/GitHubTest/Intermediate/Shaders/WorkingDirectory/1644/).
-[2019.08.11-18.11.19:574][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Pierre/AppData/Local/Temp/UnrealShaderWorkingDir/A767012949F09B0BF68D4585D196060C/'.
-[2019.08.11-18.11.19:575][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.08.11-18.11.19:575][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.08.11-18.11.19:575][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.08.11-18.11.20:052][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.08.11-18.11.20:114][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Pierre/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.08.11-18.11.20:114][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Pierre/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2019.08.11-18.11.20:114][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Document/GitHub/GameJam/GitHubTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.08.11-18.11.20:114][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.08.11-18.11.20:114][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Document/GitHub/GameJam/GitHubTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.08.11-18.11.20:114][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.08.11-18.11.20:125][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.08.11-18.11.20:125][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.08.11-18.11.20:125][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.08.11-18.11.20:136][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Pierre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.08.11-18.11.20:136][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.08.11-18.11.20:136][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.08.11-18.11.20:156][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.08.11-18.11.20:157][  0]LogSlate: Using FreeType 2.6.0
-[2019.08.11-18.11.20:157][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.08.11-18.11.20:231][  0]LogAssetRegistry: FAssetRegistry took 0.0338 seconds to start up
-[2019.08.11-18.11.20:507][  0]LogInit: Selected Device Profile: [Windows]
-[2019.08.11-18.11.20:621][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.08.11-18.11.20:621][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.08.11-18.11.20:621][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.08.11-18.11.20:621][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.08.11-18.11.20:621][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.08.11-18.11.20:629][  0]LogNetVersion: GitHubTest 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 3788160891)
-[2019.08.11-18.11.20:961][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.018364 seconds
-[2019.08.11-18.11.20:967][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
-[2019.08.11-18.11.20:967][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
-[2019.08.11-18.11.20:967][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.08.11-18.11.21:645][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.08.11-18.11.21:656][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.08.11-18.11.21:742][  0]SourceControl: Source control is disabled
-[2019.08.11-18.11.21:742][  0]SourceControl: Source control is disabled
-[2019.08.11-18.11.21:743][  0]SourceControl: Source control is disabled
-[2019.08.11-18.11.21:744][  0]SourceControl: Source control is disabled
-[2019.08.11-18.11.21:788][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.08.11-18.11.21:886][  0]LogOcInput: OculusInput pre-init called
-[2019.08.11-18.11.22:406][  0]LogEngine: Initializing Engine...
-[2019.08.11-18.11.22:407][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.08.11-18.11.22:408][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.08.11-18.11.22:607][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.08.11-18.11.22:617][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.08.11-18.11.22:646][  0]LogInit: XAudio2 using '1-2 (QUAD-CAPTURE)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.08.11-18.11.22:649][  0]LogInit: FAudioDevice initialized.
-[2019.08.11-18.11.22:649][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.08.11-18.11.22:725][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/Pierre/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.08.11-18.11.22:729][  0]LogInit: Texture streaming: Enabled
-[2019.08.11-18.11.22:741][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.08.11-18.11.22:752][  0]LogInit: Transaction tracking system initialized
-[2019.08.11-18.11.22:765][  0]BlueprintLog: New page: Editor Load
-[2019.08.11-18.11.22:815][  0]LocalizationService: Localization service is disabled
-[2019.08.11-18.11.23:048][  0]LogFileCache: Scanning file cache for directory 'D:/Document/GitHub/GameJam/GitHubTest/Content/' took 0.01s
-[2019.08.11-18.11.23:048][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.08.11-18.11.23:048][  0]LogCook: Display: Mobile HDR setting 1
-[2019.08.11-18.11.23:182][  0]SourceControl: Source control is disabled
-[2019.08.11-18.11.23:182][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.08.11-18.11.23:182][  0]LightingResults: New page: Lighting Build
-[2019.08.11-18.11.23:184][  0]MapCheck: New page: Map Check
-[2019.08.11-18.11.23:184][  0]LightingResults: New page: Lighting Build
-[2019.08.11-18.11.23:204][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
-[2019.08.11-18.11.23:271][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2019.08.11-18.11.23:274][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.08.11-18.11.23:296][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
-[2019.08.11-18.11.23:296][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.08.11-18.11.23:297][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,088ms to complete.
-[2019.08.11-18.11.23:297][  0]LogFileHelpers: Loading map 'Template_Default' took 0.115
-[2019.08.11-18.11.23:357][  0]LogCollectionManager: Loaded 0 collections in 0.001037 seconds
-[2019.08.11-18.11.23:390][  0]LogFileCache: Scanning file cache for directory 'D:/Document/GitHub/GameJam/GitHubTest/Saved/Collections/' took 0.01s
-[2019.08.11-18.11.23:390][  0]LogFileCache: Scanning file cache for directory 'D:/Document/GitHub/GameJam/GitHubTest/Content/Developers/Pierre/Collections/' took 0.01s
-[2019.08.11-18.11.23:390][  0]LogFileCache: Scanning file cache for directory 'D:/Document/GitHub/GameJam/GitHubTest/Content/Collections/' took 0.01s
-[2019.08.11-18.11.23:390][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.08.11-18.11.23:398][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2732 classes and 659 folders.
-[2019.08.11-18.11.23:402][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.08.11-18.11.23:402][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.11-18.11.23:403][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.11-18.11.23:403][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.11-18.11.23:403][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.11-18.11.23:404][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.11-18.11.23:404][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.11-18.11.23:404][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.11-18.11.23:404][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.11-18.11.23:405][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.11-18.11.23:405][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.11-18.11.23:405][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.11-18.11.23:405][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.11-18.11.23:406][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.11-18.11.23:406][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.11-18.11.23:406][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.11-18.11.23:406][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.11-18.11.23:407][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.11-18.11.23:407][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.11-18.11.23:407][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.11-18.11.23:407][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.11-18.11.23:408][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.11-18.11.23:408][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.11-18.11.23:408][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.11-18.11.23:409][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.11-18.11.23:409][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.11-18.11.23:409][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.11-18.11.23:423][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.08.11-18.11.23:439][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.11-18.11.23:445][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.11-18.11.23:450][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.11-18.11.23:456][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.11-18.11.23:461][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.08.11-18.11.23:471][  0]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.08.11-18.11.23:472][  0]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.08.11-18.11.23:472][  0]LogSlate: Took 0.000093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.08.11-18.11.23:530][  0]LogRenderer: Reallocating scene render targets to support 1112x932 Format 10 NumSamples 1 (Frame:1).
-[2019.08.11-18.11.23:655][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.08.11-18.11.23:655][  0]LogLoad: (Engine Initialization) Total time: 5.91 seconds
-[2019.08.11-18.11.23:655][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.08.11-18.11.23:685][  0]LogAssetRegistry: Asset discovery search completed in 3.4738 seconds
-[2019.08.11-18.11.23:687][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.08.11-18.11.23:687][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
-[2019.08.11-18.11.23:688][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.08.11-18.11.23:707][  0]LogSlate: Took 0.000083 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.08.11-18.11.25:875][257]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.11-18.11.43:925][412]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.08.11-18.11.45:227][412]LogSlate: Window 'Pick Parent Class' being destroyed
-[2019.08.11-18.11.51:403][150]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
-[2019.08.11-18.11.52:626][150]LogSlate: Window 'Save Content' being destroyed
-[2019.08.11-18.11.52:639][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Test2" FILE="../../../../../../Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset" SILENT=true
-[2019.08.11-18.11.52:644][150]LogSavePackage: Moving '../../../../../../Document/GitHub/GameJam/GitHubTest/Saved/BP_Test22CE3171B45F9B2FE8D64B7AD3987F374.tmp' to '../../../../../../Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset'
-[2019.08.11-18.15.06:688][192]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Test.BP_Test
-[2019.08.11-18.15.07:418][192]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
-[2019.08.11-18.15.29:435][606]LogSlate: Window 'BP_Test' being destroyed
-[2019.08.11-18.15.29:437][606]LogSlate: Window 'BP_Test' being destroyed
-[2019.08.11-18.15.30:877][761]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Test.BP_Test
-[2019.08.11-18.15.32:307][885]LogSlate: Window 'Tutorials' being destroyed
-[2019.08.11-18.15.52:604][301]BlueprintLog: New page: Compile BP_Test
-[2019.08.11-18.15.52:746][301]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
-[2019.08.11-18.15.53:401][376]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Test" FILE="../../../../../../Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test.uasset" SILENT=true
-[2019.08.11-18.15.53:405][376]LogSavePackage: Moving '../../../../../../Document/GitHub/GameJam/GitHubTest/Saved/BP_Test68326056470FB374AA8018A87552163E.tmp' to '../../../../../../Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test.uasset'
-[2019.08.11-18.15.54:714][531]LogSlate: Window 'BP_Test' being destroyed
-[2019.08.11-18.15.54:716][531]LogSlate: Window 'BP_Test' being destroyed
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Engine.ini]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Engine.ini]
+[2019.08.11-20.15.30:710][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Engine.ini]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Engine.ini]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.08.11-20.15.30:710][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.08.11-20.15.30:711][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.08.11-20.15.30:711][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Engine.ini]
+[2019.08.11-20.15.30:711][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Engine.ini]
+[2019.08.11-20.15.30:716][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.08.11-20.15.30:716][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.08.11-20.15.30:717][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.08.11-20.15.30:717][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.11-20.15.30:717][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.08.11-20.15.30:741][  0]LogHAL: Display: Platform has ~ 8 GB [8529100800 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.08.11-20.15.30:741][  0]LogInit: Going up to parent DeviceProfile []
+[2019.08.11-20.15.30:741][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.08.11-20.15.30:741][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Scalability.ini]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.08.11-20.15.30:742][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Document/GitHub/GameJam/GitHubTest/Saved/Config/Windows/Engine.ini]
+[2019.08.11-20.15.30:742][  0]LogInit: Computer: PIERRE-DESKTOP
+[2019.08.11-20.15.30:742][  0]LogInit: User: Pierre
+[2019.08.11-20.15.30:742][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.08.11-20.15.30:742][  0]LogInit: High frequency timer resolution =3.515673 MHz
+[2019.08.11-20.15.30:742][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.08.11-20.15.30:742][  0]LogMemory: Platform Memory Stats for Windows
+[2019.08.11-20.15.30:742][  0]LogMemory: Process Physical Memory: 99.95 MB used, 99.95 MB peak
+[2019.08.11-20.15.30:742][  0]LogMemory: Process Virtual Memory: 93.44 MB used, 93.44 MB peak
+[2019.08.11-20.15.30:742][  0]LogMemory: Physical Memory: 4930.99 MB used,  3202.99 MB free, 8133.98 MB total
+[2019.08.11-20.15.30:742][  0]LogMemory: Virtual Memory: 515.67 MB used,  8388092.00 MB free, 8388608.00 MB total
+[2019.08.11-20.15.30:759][  0]LogInit: Using OS detected language (fr-CA).
+[2019.08.11-20.15.30:759][  0]LogInit: Using OS detected locale (fr-CA).
+[2019.08.11-20.15.30:759][  0]LogTextLocalizationManager: No specific localization for 'fr-CA' exists, so the 'fr' localization will be used.
+[2019.08.11-20.15.30:759][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
+[2019.08.11-20.15.30:759][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
+[2019.08.11-20.15.30:759][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
+[2019.08.11-20.15.30:760][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
+[2019.08.11-20.15.30:760][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
+[2019.08.11-20.15.30:760][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
+[2019.08.11-20.15.30:760][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
+[2019.08.11-20.15.30:760][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2019.08.11-20.15.30:760][  0]LogWindows: File 'shcore.dll' does not exist
+[2019.08.11-20.15.30:760][  0]LogInit: Setting process to DPI aware
+[2019.08.11-20.15.30:776][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.08.11-20.15.30:776][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.08.11-20.15.30:888][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.08.11-20.15.30:888][  0]LogD3D11RHI: D3D11 adapters:
+[2019.08.11-20.15.30:914][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2019.08.11-20.15.30:914][  0]LogD3D11RHI:       4002/0/3810 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.08.11-20.15.30:914][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.08.11-20.15.30:919][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.08.11-20.15.30:919][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
+[2019.08.11-20.15.30:920][  0]LogWindows: EnumDisplayDevices:
+[2019.08.11-20.15.30:920][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
+[2019.08.11-20.15.30:920][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:1)
+[2019.08.11-20.15.30:920][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2019.08.11-20.15.30:920][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2019.08.11-20.15.30:920][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2019.08.11-20.15.30:920][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2019.08.11-20.15.30:920][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2019.08.11-20.15.30:920][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.08.11-20.15.30:920][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2019.08.11-20.15.30:920][  0]LogD3D11RHI:   Driver Version: 431.60 (internal:26.21.14.3160, unified:431.60)
+[2019.08.11-20.15.30:920][  0]LogD3D11RHI:      Driver Date: 7-17-2019
+[2019.08.11-20.15.30:920][  0]LogRHI: Texture pool is 2801 MB (70% of 4002 MB)
+[2019.08.11-20.15.30:935][  0]LogD3D11RHI: Async texture creation enabled
+[2019.08.11-20.15.30:941][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.08.11-20.15.30:941][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.08.11-20.15.30:941][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.08.11-20.15.30:953][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.08.11-20.15.31:236][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.08.11-20.15.31:246][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.08.11-20.15.31:257][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.08.11-20.15.31:267][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.08.11-20.15.31:282][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.08.11-20.15.31:298][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.08.11-20.15.31:311][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.08.11-20.15.31:321][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.08.11-20.15.31:326][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.08.11-20.15.31:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.08.11-20.15.31:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.08.11-20.15.31:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.08.11-20.15.31:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.08.11-20.15.31:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.08.11-20.15.31:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.08.11-20.15.31:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.08.11-20.15.31:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.08.11-20.15.31:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.08.11-20.15.31:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.08.11-20.15.31:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.08.11-20.15.31:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.08.11-20.15.31:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.08.11-20.15.31:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.08.11-20.15.31:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.08.11-20.15.31:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.08.11-20.15.31:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.08.11-20.15.31:389][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.08.11-20.15.31:390][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.08.11-20.15.31:430][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.08.11-20.15.31:430][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.08.11-20.15.31:449][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.08.11-20.15.31:449][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.08.11-20.15.31:458][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.08.11-20.15.31:468][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.08.11-20.15.31:478][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.08.11-20.15.31:488][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.08.11-20.15.31:524][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.08.11-20.15.31:524][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.08.11-20.15.31:524][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.08.11-20.15.31:529][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.08.11-20.15.31:557][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (../../../../../../Document/GitHub/GameJam/GitHubTest/Intermediate/Shaders/WorkingDirectory/2500/).
+[2019.08.11-20.15.31:558][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Pierre/AppData/Local/Temp/UnrealShaderWorkingDir/38D7D2EA446BFE3021547FB08C73C9E1/'.
+[2019.08.11-20.15.31:559][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.08.11-20.15.31:559][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.08.11-20.15.31:559][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.08.11-20.15.32:082][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.08.11-20.15.32:138][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Pierre/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.08.11-20.15.32:138][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Pierre/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.08.11-20.15.32:138][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Document/GitHub/GameJam/GitHubTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.08.11-20.15.32:138][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.08.11-20.15.32:138][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Document/GitHub/GameJam/GitHubTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.08.11-20.15.32:138][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.08.11-20.15.32:149][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.08.11-20.15.32:149][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.08.11-20.15.32:149][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.08.11-20.15.32:160][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Pierre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.08.11-20.15.32:160][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.08.11-20.15.32:160][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.08.11-20.15.32:178][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.08.11-20.15.32:179][  0]LogSlate: Using FreeType 2.6.0
+[2019.08.11-20.15.32:179][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.08.11-20.15.32:247][  0]LogAssetRegistry: FAssetRegistry took 0.0289 seconds to start up
+[2019.08.11-20.15.32:513][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.11-20.15.32:629][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.08.11-20.15.32:629][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.08.11-20.15.32:629][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.08.11-20.15.32:629][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.08.11-20.15.32:629][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.08.11-20.15.32:637][  0]LogNetVersion: GitHubTest 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 3788160891)
+[2019.08.11-20.15.32:986][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.038523 seconds
+[2019.08.11-20.15.32:991][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.08.11-20.15.32:991][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.08.11-20.15.32:991][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.08.11-20.15.33:607][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.08.11-20.15.33:618][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.08.11-20.15.33:704][  0]SourceControl: Source control is disabled
+[2019.08.11-20.15.33:704][  0]SourceControl: Source control is disabled
+[2019.08.11-20.15.33:706][  0]SourceControl: Source control is disabled
+[2019.08.11-20.15.33:706][  0]SourceControl: Source control is disabled
+[2019.08.11-20.15.33:807][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.08.11-20.15.33:906][  0]LogOcInput: OculusInput pre-init called
+[2019.08.11-20.15.34:421][  0]LogEngine: Initializing Engine...
+[2019.08.11-20.15.34:421][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.08.11-20.15.34:422][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.08.11-20.15.34:626][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.08.11-20.15.34:637][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.08.11-20.15.34:665][  0]LogInit: XAudio2 using '1-2 (QUAD-CAPTURE)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.11-20.15.34:668][  0]LogInit: FAudioDevice initialized.
+[2019.08.11-20.15.34:668][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.08.11-20.15.34:740][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/Pierre/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.08.11-20.15.34:745][  0]LogInit: Texture streaming: Enabled
+[2019.08.11-20.15.34:758][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.08.11-20.15.34:822][  0]LogInit: Transaction tracking system initialized
+[2019.08.11-20.15.34:837][  0]BlueprintLog: New page: Editor Load
+[2019.08.11-20.15.34:889][  0]LocalizationService: Localization service is disabled
+[2019.08.11-20.15.35:232][  0]LogFileCache: Scanning file cache for directory 'D:/Document/GitHub/GameJam/GitHubTest/Content/' took 0.01s
+[2019.08.11-20.15.35:232][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.08.11-20.15.35:233][  0]LogCook: Display: Mobile HDR setting 1
+[2019.08.11-20.15.35:374][  0]SourceControl: Source control is disabled
+[2019.08.11-20.15.35:374][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.08.11-20.15.35:375][  0]LightingResults: New page: Lighting Build
+[2019.08.11-20.15.35:376][  0]MapCheck: New page: Map Check
+[2019.08.11-20.15.35:376][  0]LightingResults: New page: Lighting Build
+[2019.08.11-20.15.35:396][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2019.08.11-20.15.35:460][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.08.11-20.15.35:463][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.08.11-20.15.35:483][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2019.08.11-20.15.35:483][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.08.11-20.15.35:483][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,081ms to complete.
+[2019.08.11-20.15.35:483][  0]LogFileHelpers: Loading map 'Template_Default' took 0.109
+[2019.08.11-20.15.36:403][  0]LogCollectionManager: Loaded 0 collections in 0.000862 seconds
+[2019.08.11-20.15.36:669][  0]LogFileCache: Scanning file cache for directory 'D:/Document/GitHub/GameJam/GitHubTest/Saved/Collections/' took 0.01s
+[2019.08.11-20.15.36:669][  0]LogFileCache: Scanning file cache for directory 'D:/Document/GitHub/GameJam/GitHubTest/Content/Developers/Pierre/Collections/' took 0.01s
+[2019.08.11-20.15.36:669][  0]LogFileCache: Scanning file cache for directory 'D:/Document/GitHub/GameJam/GitHubTest/Content/Collections/' took 0.00s
+[2019.08.11-20.15.36:669][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.08.11-20.15.36:678][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2732 classes and 659 folders.
+[2019.08.11-20.15.36:780][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.08.11-20.15.36:852][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.11-20.15.36:900][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.11-20.15.36:901][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.11-20.15.36:902][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.11-20.15.36:903][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.11-20.15.36:904][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.11-20.15.36:905][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.11-20.15.36:905][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.11-20.15.36:906][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.11-20.15.36:907][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.11-20.15.36:908][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.11-20.15.36:909][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.11-20.15.36:910][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.11-20.15.36:910][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.11-20.15.36:911][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.11-20.15.36:912][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.11-20.15.36:913][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.11-20.15.36:915][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.11-20.15.36:916][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.11-20.15.36:916][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.11-20.15.36:917][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.11-20.15.36:918][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.11-20.15.36:919][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.11-20.15.36:920][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.11-20.15.36:920][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.11-20.15.36:921][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.11-20.15.37:640][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.08.11-20.15.38:412][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.11-20.15.38:419][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.11-20.15.38:425][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.11-20.15.38:449][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.11-20.15.38:526][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.08.11-20.15.39:021][  0]LogSlate: Took 0.000100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.08.11-20.15.39:040][  0]LogSlate: Took 0.017743 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.08.11-20.15.39:051][  0]LogSlate: Took 0.000094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.08.11-20.15.39:470][  0]LogRenderer: Reallocating scene render targets to support 1112x932 Format 10 NumSamples 1 (Frame:1).
+[2019.08.11-20.15.39:779][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.08.11-20.15.39:779][  0]LogLoad: (Engine Initialization) Total time: 10.58 seconds
+[2019.08.11-20.15.39:779][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.08.11-20.15.39:825][  0]LogAssetRegistry: Asset discovery search completed in 7.5990 seconds
+[2019.08.11-20.15.39:827][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.08.11-20.15.39:827][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000028 seconds (updated 0 objects)
+[2019.08.11-20.15.39:845][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.08.11-20.15.39:891][  0]LogSlate: Took 0.018100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.08.11-20.15.55:771][788]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-20.15.59:100][185]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-20.16.33:999][973]LogSlate: Window 'Plugins' being destroyed
+[2019.08.11-20.16.34:001][973]LogSlate: Window 'Plugins' being destroyed
+[2019.08.11-20.16.34:001][973]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2019.08.11-20.16.34:002][973]LogDirectoryWatcher: A directory notification for '../../../../../../Document/GitHub/GameJam/GitHubTest/Plugins/' was aborted.
+[2019.08.11-20.16.35:676][169]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-20.16.38:026][450]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-20.16.39:385][612]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-20.17.37:066][948]LogSourceControl: Git plugin '2.12'
+[2019.08.11-20.17.37:067][948]LogSourceControl: RunCommand: 'git version'
+[2019.08.11-20.17.37:067][948]LogWindows: Warning: CreateProc failed: Le fichier spécifié est introuvable. (0x00000002)
+[2019.08.11-20.17.37:067][948]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2019.08.11-20.17.37:067][948]LogSourceControl: RunCommand(version):
+
+[2019.08.11-20.17.37:067][948]LogSourceControl: Warning: RunCommand(version) ReturnCode=2:
+
+[2019.08.11-20.17.37:067][948]LogSourceControl: RunCommand: 'git version'
+[2019.08.11-20.17.37:067][948]LogWindows: Warning: CreateProc failed: Le fichier spécifié est introuvable. (0x00000002)
+[2019.08.11-20.17.37:067][948]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2019.08.11-20.17.37:067][948]LogSourceControl: RunCommand(version):
+
+[2019.08.11-20.17.37:067][948]LogSourceControl: Warning: RunCommand(version) ReturnCode=2:
+
+[2019.08.11-20.17.37:067][948]LogSourceControl: RunCommand: 'git version'
+[2019.08.11-20.17.37:067][948]LogWindows: Warning: CreateProc failed: Le fichier spécifié est introuvable. (0x00000002)
+[2019.08.11-20.17.37:067][948]LogWindows: Warning: URL: C:\Users\Pierre\AppData\Local/Programs/Git/cmd/git.exe version
+[2019.08.11-20.17.37:067][948]LogSourceControl: RunCommand(version):
+
+[2019.08.11-20.17.37:067][948]LogSourceControl: Warning: RunCommand(version) ReturnCode=2:
+
+[2019.08.11-20.17.37:067][948]LogSourceControl: RunCommand: 'git version'
+[2019.08.11-20.17.37:067][948]LogWindows: Warning: CreateProc failed: Le fichier spécifié est introuvable. (0x00000002)
+[2019.08.11-20.17.37:067][948]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2019.08.11-20.17.37:067][948]LogSourceControl: RunCommand(version):
+
+[2019.08.11-20.17.37:068][948]LogSourceControl: Warning: RunCommand(version) ReturnCode=2:
+
+[2019.08.11-20.17.37:068][948]LogSourceControl: RunCommand: 'git version'
+[2019.08.11-20.17.37:068][948]LogWindows: Warning: CreateProc failed: Le fichier spécifié est introuvable. (0x00000002)
+[2019.08.11-20.17.37:068][948]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2019.08.11-20.17.37:068][948]LogSourceControl: RunCommand(version):
+
+[2019.08.11-20.17.37:068][948]LogSourceControl: Warning: RunCommand(version) ReturnCode=2:
+
+[2019.08.11-20.17.37:068][948]LogSourceControl: RunCommand: 'git version'
+[2019.08.11-20.17.37:068][948]LogWindows: Warning: CreateProc failed: Le fichier spécifié est introuvable. (0x00000002)
+[2019.08.11-20.17.37:068][948]LogWindows: Warning: URL: C:\Users\Pierre\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2019.08.11-20.17.37:068][948]LogSourceControl: RunCommand(version):
+
+[2019.08.11-20.17.37:068][948]LogSourceControl: Warning: RunCommand(version) ReturnCode=2:
+
+[2019.08.11-20.17.37:068][948]LogSourceControl: RunCommand: 'git version'
+[2019.08.11-20.17.37:068][948]LogWindows: Warning: CreateProc failed: Le fichier spécifié est introuvable. (0x00000002)
+[2019.08.11-20.17.37:068][948]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2019.08.11-20.17.37:068][948]LogSourceControl: RunCommand(version):
+
+[2019.08.11-20.17.37:068][948]LogSourceControl: Warning: RunCommand(version) ReturnCode=2:
+
+[2019.08.11-20.20.10:447][193]LogSourceControl: Using 'C:/Users/Pierre/AppData/Local/GitHubDesktop/GitHubDesktop.exe'
+[2019.08.11-20.20.10:447][193]LogSourceControl: RunCommand: 'git version'
+[2019.08.11-20.20.10:766][193]LogSourceControl: RunCommand(version):
+
+
+[2019.08.11-20.20.10:784][194]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.08.11-20.20.21:644][283]LogSourceControl: IssueAsynchronousCommand(Connect)
+[2019.08.11-20.20.21:647][284]LogSourceControl: RunCommand: 'git version'
+[2019.08.11-20.20.22:149][304]LogSourceControl: RunCommand(version):
+
+
+[2019.08.11-20.20.22:149][304]SourceControl: Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2019.08.11-20.20.39:793][457]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (29.010 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.08.11-20.26.58:414][188]LogSourceControl: Using 'C:/Users/Pierre/AppData/Local/GitHubDesktop/app-2.1.0/GitHubDesktop.exe'
+[2019.08.11-20.26.58:414][188]LogSourceControl: RunCommand: 'git version'
+[2019.08.11-20.26.58:623][188]LogSourceControl: RunCommand(version):
+
+
+[2019.08.11-20.27.03:687][204]LogSourceControl: IssueAsynchronousCommand(Connect)
+[2019.08.11-20.27.03:691][205]LogSourceControl: RunCommand: 'git version'
+[2019.08.11-20.27.04:168][212]LogSourceControl: RunCommand(version):
+
+
+[2019.08.11-20.27.04:168][212]SourceControl: Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2019.08.11-20.27.18:789][ 47]LogSlate: Window 'Message Log' being destroyed
+[2019.08.11-20.27.18:791][ 47]LogSlate: Window 'Message Log' being destroyed
+[2019.08.11-20.30.52:039][ 87]LogSourceControl: Using 'C:/Program Files/Git/bin/git.exe'
+[2019.08.11-20.30.52:039][ 87]LogSourceControl: RunCommand: 'git version'
+[2019.08.11-20.30.52:054][ 87]LogSourceControl: RunCommand(version):
+git version 2.22.0.windows.1
+
+[2019.08.11-20.30.52:054][ 87]LogSourceControl: Git version 2.22.0(1)
+[2019.08.11-20.30.52:054][ 87]LogSourceControl: RunCommand: 'git cat-file -h'
+[2019.08.11-20.30.52:069][ 87]LogSourceControl: RunCommand(cat-file -h):
+usage: git cat-file (-t [--allow-unknown-type] | -s [--allow-unknown-type] | -e | -p | <type> | --textconv | --filters) [--path=<path>] <object>
+   or: git cat-file (--batch | --batch-check) [--follow-symlinks] [--textconv | --filters]
+
+<type> can be one of: blob, tree, commit, tag
+    -t                    show object type
+    -s                    show object size
+    -e                    exit with zero when there's no error
+    -p                    pretty-print object's content
+    --textconv            for blob objects, run textconv on object's content
+    --filters             for blob objects, run filters on object's content
+    --path <blob>         use a specific path for --textconv/--filters
+    --allow-unknown-type  allow -s and -t to work with broken/corrupt objects
+    --buffer              buffer --batch output
+    --batch[=<format>]    show info and content of objects fed from the standard input
+    --batch-check[=<format>]
+                          show info about objects fed from the standard input
+    --follow-symlinks     follow in-tree symlinks (used with --batch or --batch-check)
+    --batch-all-objects   show all objects with --batch or --batch-check
+    --unordered           do not order --batch-all-objects output
+
+
+[2019.08.11-20.30.52:069][ 87]LogSourceControl: Warning: RunCommand(cat-file -h) ReturnCode=129:
+
+[2019.08.11-20.30.52:069][ 87]LogSourceControl: RunCommand: 'git lfs version'
+[2019.08.11-20.30.52:102][ 87]LogSourceControl: RunCommand(lfs version):
+git-lfs/2.7.2 (GitHub; windows amd64; go 1.12.2; git 08a08ae0)
+
+[2019.08.11-20.30.52:102][ 87]LogSourceControl: git-lfs/2.7.2 (GitHub; windows amd64; go 1.12.2; git 08a08ae0)
+
+[2019.08.11-20.30.52:102][ 87]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.30.52:116][ 87]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.30.52:116][ 87]LogSourceControl: RunCommand: 'git remote get-url origin'
+[2019.08.11-20.30.52:131][ 87]LogSourceControl: RunCommand(remote):
+https://github.com/DrCaptainChef/GameJam.git
+
+[2019.08.11-20.30.52:131][ 87]LogSourceControl: RunCommand: 'git config user.name'
+[2019.08.11-20.30.52:146][ 87]LogSourceControl: RunCommand(config):
+DrCaptainChef
+
+[2019.08.11-20.30.52:146][ 87]LogSourceControl: RunCommand: 'git config user.email'
+[2019.08.11-20.30.52:160][ 87]LogSourceControl: RunCommand(config):
+DrCaptainChef@users.noreply.github.com
+
+[2019.08.11-20.31.18:198][187]LogSourceControl: IssueAsynchronousCommand(Connect)
+[2019.08.11-20.31.18:203][188]LogSourceControl: RunCommand: 'git version'
+[2019.08.11-20.31.18:222][190]LogSourceControl: RunCommand(version):
+git version 2.22.0.windows.1
+
+[2019.08.11-20.31.18:222][190]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.31.18:528][227]LogSourceControl: RunCommand(lfs locks):
+
+[2019.08.11-20.31.18:528][227]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Content"'
+[2019.08.11-20.31.18:553][230]LogSourceControl: RunCommand(status):
+
+[2019.08.11-20.31.18:553][230]LogSourceControl: ParseStatusResults: 1) Special case for status of a directory (D:/Document/GitHub/GameJam/GitHubTest/Content/)
+[2019.08.11-20.31.18:553][230]LogSourceControl: RunCommand: 'git ls-files "D:/Document/GitHub/GameJam/GitHubTest/Content/"'
+[2019.08.11-20.31.18:569][232]LogSourceControl: RunCommand(ls-files):
+GitHubTest/Content/Blueprints/BP_Test.uasset
+GitHubTest/Content/Blueprints/BP_Test2.uasset
+GitHubTest/Content/Levels/LevelTest.umap
+
+[2019.08.11-20.31.18:569][232]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test.uasset) not found but exists => unchanged
+[2019.08.11-20.31.18:569][232]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test.uasset) Not Locked
+[2019.08.11-20.31.18:569][232]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) not found but exists => unchanged
+[2019.08.11-20.31.18:569][232]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) Not Locked
+[2019.08.11-20.31.18:569][232]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) not found but exists => unchanged
+[2019.08.11-20.31.18:569][232]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) Not Locked
+[2019.08.11-20.31.18:569][232]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.31.18:594][235]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.31.18:594][235]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Content"'
+[2019.08.11-20.31.18:612][237]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.31.18:612][237]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Config"'
+[2019.08.11-20.31.18:636][240]LogSourceControl: RunCommand(status):
+
+[2019.08.11-20.31.18:636][240]LogSourceControl: ParseStatusResults: 1) Special case for status of a directory (D:/Document/GitHub/GameJam/GitHubTest/Config/)
+[2019.08.11-20.31.18:636][240]LogSourceControl: RunCommand: 'git ls-files "D:/Document/GitHub/GameJam/GitHubTest/Config/"'
+[2019.08.11-20.31.18:653][242]LogSourceControl: RunCommand(ls-files):
+GitHubTest/Config/DefaultEditor.ini
+GitHubTest/Config/DefaultEngine.ini
+GitHubTest/Config/DefaultGame.ini
+
+[2019.08.11-20.31.18:653][242]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Config/DefaultEditor.ini) not found but exists => unchanged
+[2019.08.11-20.31.18:653][242]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Config/DefaultEditor.ini) Not Locked
+[2019.08.11-20.31.18:653][242]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Config/DefaultEngine.ini) not found but exists => unchanged
+[2019.08.11-20.31.18:653][242]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Config/DefaultEngine.ini) Not Locked
+[2019.08.11-20.31.18:653][242]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Config/DefaultGame.ini) not found but exists => unchanged
+[2019.08.11-20.31.18:653][242]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Config/DefaultGame.ini) Not Locked
+[2019.08.11-20.31.18:653][242]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.31.18:669][244]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.31.18:670][244]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Config"'
+[2019.08.11-20.31.18:695][247]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.31.18:695][247]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2019.08.11-20.31.18:711][249]LogSourceControl: RunCommand(log):
+c654ee96012de758f33a316cd59464a0005b59bb Update .gitignore
+
+[2019.08.11-20.31.18:711][249]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.31.19:003][284]LogSourceControl: RunCommand(lfs locks):
+
+[2019.08.11-20.31.19:009][284]LogSlate: Window 'Source Control Login' being destroyed
+[2019.08.11-20.31.39:810][210]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (47.644 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.08.11-20.31.42:440][522]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-20.32.02:508][905]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.08.11-20.32.02:532][905]LogAIModule: Creating AISystem for world LevelTest
+[2019.08.11-20.32.02:535][905]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/LevelTest.LevelTest
+[2019.08.11-20.32.02:589][905]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2019.08.11-20.32.02:590][905]Cmd: MAP LOAD FILE="../../../../../../Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.08.11-20.32.02:590][905]LightingResults: New page: Lighting Build
+[2019.08.11-20.32.02:591][905]LoadErrors: New page: Loading map: LevelTest.umap
+[2019.08.11-20.32.02:591][905]MapCheck: New page: Map Check
+[2019.08.11-20.32.02:591][905]LightingResults: New page: Lighting Build
+[2019.08.11-20.32.02:613][905]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2019.08.11-20.32.02:750][905]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.08.11-20.32.02:771][905]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2019.08.11-20.32.02:778][905]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.08.11-20.32.02:778][905]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,058ms to complete.
+[2019.08.11-20.32.02:778][905]LogFileHelpers: Loading map 'LevelTest' took 0.188
+[2019.08.11-20.32.07:704][486]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-20.32.08:567][590]MapCheck: New page: Map Check
+[2019.08.11-20.32.08:574][590]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-20.32.08:611][590]LightingResults: New page: Lighting Build - 2019-08-11 12:32:08
+[2019.08.11-20.32.08:682][590]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.08.11-20.32.08:803][590]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.08.11-20.32.08:813][590]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.08.11-20.32.09:328][590]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.08.11-20.32.09:328][590]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2500
+[2019.08.11-20.32.12:118][590]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.08.11-20.32.12:118][590]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.08.11-20.32.12:118][590]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.08.11-20.32.12:118][590]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.08.11-20.32.12:118][590]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.08.11-20.32.12:118][590]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.08.11-20.32.12:252][590]LogEditorBuildUtils: Build time 0:03
+[2019.08.11-20.32.12:259][590]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2019.08.11-20.32.12:297][590]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2019.08.11-20.32.14:547][592]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-20.32.14:617][594]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2019.08.11-20.32.16:231][662]Job is a success!
+[2019.08.11-20.32.20:491][139]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.007s
+[2019.08.11-20.32.20:491][139]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.08.11-20.32.20:491][139]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
+[2019.08.11-20.32.20:491][139]LogVolumetricLightmapImport:      Bricks at Level
+[2019.08.11-20.32.20:491][139]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2019.08.11-20.32.20:491][139]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2019.08.11-20.32.20:491][139]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2019.08.11-20.32.20:525][139]Lightmass on PIERRE-DESKTOP: 4.95 sec total, 58 ms importing, 1 ms setup, 352 ms photons, 4.43 sec processing, 0 ms extra exporting [0/0 mappings]. Threads: 30.9 sec total, 0 ms processing.
+[2019.08.11-20.32.20:546][139]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2019.08.11-20.32.20:551][139]LogStaticLightingSystem: Illumination: 7.83 sec (0 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2019.08.11-20.32.20:551][139]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2019.08.11-20.32.20:551][139]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2019.08.11-20.32.21:097][139]DumpUnbuiltLightIteractions
+[2019.08.11-20.32.21:097][139]Lights with unbuilt interactions: 0
+[2019.08.11-20.32.21:097][139]
+[2019.08.11-20.32.21:097][139]Primitives with unbuilt interactions: 0
+[2019.08.11-20.32.21:099][139]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-20.32.21:118][140]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.08.11-20.32.21:118][140]MapCheck: New page: LevelTest - 2019-08-11 12:32:21
+[2019.08.11-20.32.21:151][140]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 33,373ms to complete.
+[2019.08.11-20.32.21:157][140]LogSourceControl: IssueAsynchronousCommand(UpdateStatus)
+[2019.08.11-20.32.21:160][141]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.32.21:490][181]LogSourceControl: RunCommand(lfs locks):
+
+[2019.08.11-20.32.21:490][181]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels"'
+[2019.08.11-20.32.21:507][183]LogSourceControl: RunCommand(status):
+
+[2019.08.11-20.32.21:507][183]LogSourceControl: ParseStatusResults: 2) General case for one or more files (D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap, ...)
+[2019.08.11-20.32.21:507][183]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) not found but exists => unchanged
+[2019.08.11-20.32.21:507][183]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) Not Locked
+[2019.08.11-20.32.21:507][183]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest_BuiltData.uasset) not found and does not exists => new/not controled
+[2019.08.11-20.32.21:507][183]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest_BuiltData.uasset) Not Locked
+[2019.08.11-20.32.21:507][183]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.32.21:532][186]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.32.21:532][186]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels"'
+[2019.08.11-20.32.21:549][188]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.32.21:549][188]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2019.08.11-20.32.21:570][190]LogSourceControl: RunCommand(log):
+c654ee96012de758f33a316cd59464a0005b59bb Update .gitignore
+
+[2019.08.11-20.32.26:665][783]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-20.32.26:804][794]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2019.08.11-20.32.26:809][794]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.32.27:087][794]LogSourceControl: RunCommand(lfs locks):
+
+[2019.08.11-20.32.27:087][794]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels"'
+[2019.08.11-20.32.27:107][794]LogSourceControl: RunCommand(status):
+
+[2019.08.11-20.32.27:107][794]LogSourceControl: ParseStatusResults: 2) General case for one or more files (D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap, ...)
+[2019.08.11-20.32.27:107][794]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) not found but exists => unchanged
+[2019.08.11-20.32.27:107][794]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) Not Locked
+[2019.08.11-20.32.27:107][794]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest_BuiltData.uasset) not found and does not exists => new/not controled
+[2019.08.11-20.32.27:107][794]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest_BuiltData.uasset) Not Locked
+[2019.08.11-20.32.27:107][794]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.32.27:127][794]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.32.27:127][794]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels"'
+[2019.08.11-20.32.27:147][794]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.32.27:147][794]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2019.08.11-20.32.27:167][794]LogSourceControl: RunCommand(log):
+c654ee96012de758f33a316cd59464a0005b59bb Update .gitignore
+
+[2019.08.11-20.32.29:030][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-20.32.30:399][180]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2019.08.11-20.32.32:649][180]LogSlate: Window 'Save Content' being destroyed
+[2019.08.11-20.32.32:652][180]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2019.08.11-20.32.32:654][180]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-20.32.32:656][180]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.32.32:953][180]LogSourceControl: RunCommand(lfs locks):
+
+[2019.08.11-20.32.32:953][180]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels"'
+[2019.08.11-20.32.32:973][180]LogSourceControl: RunCommand(status):
+
+[2019.08.11-20.32.32:973][180]LogSourceControl: ParseStatusResults: 2) General case for one or more files (D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap, ...)
+[2019.08.11-20.32.32:973][180]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) not found but exists => unchanged
+[2019.08.11-20.32.32:973][180]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) Not Locked
+[2019.08.11-20.32.32:973][180]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest_BuiltData.uasset) not found and does not exists => new/not controled
+[2019.08.11-20.32.32:973][180]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest_BuiltData.uasset) Not Locked
+[2019.08.11-20.32.32:973][180]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.32.32:983][180]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.32.32:983][180]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels"'
+[2019.08.11-20.32.33:003][180]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.32.33:003][180]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2019.08.11-20.32.33:023][180]LogSourceControl: RunCommand(log):
+c654ee96012de758f33a316cd59464a0005b59bb Update .gitignore
+
+[2019.08.11-20.32.33:026][180]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.11-20.32.33:046][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/LevelTest" FILE="../../../../../../Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.08.11-20.32.33:063][180]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2019.08.11-20.32.33:484][180]LogSavePackage: Moving '../../../../../../Document/GitHub/GameJam/GitHubTest/Saved/LevelTestCACADBA44D7015AF1A8EA5AB7EFEE103.tmp' to '../../../../../../Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap'
+[2019.08.11-20.32.33:501][180]LogFileHelpers: Saving map 'LevelTest' took 0.455
+[2019.08.11-20.32.33:503][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/LevelTest_BuiltData" FILE="../../../../../../Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest_BuiltData.uasset" SILENT=true
+[2019.08.11-20.32.33:504][180]LogSavePackage: Moving '../../../../../../Document/GitHub/GameJam/GitHubTest/Saved/LevelTest_BuiltDataE0BD315D4D1F681FC9734FB0B60E91E3.tmp' to '../../../../../../Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest_BuiltData.uasset'
+[2019.08.11-20.32.33:505][180]LogSourceControl: ExecuteSynchronousCommand(MarkForAdd)
+[2019.08.11-20.32.33:510][180]LogSourceControl: RunCommand: 'git add "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest_BuiltData.uasset"'
+[2019.08.11-20.32.33:532][180]LogSourceControl: RunCommand(add):
+
+[2019.08.11-20.32.33:532][180]LogSourceControl: Warning: RunCommand(add) ReturnCode=1:
+The following paths are ignored by one of your .gitignore files:
+GitHubTest/Content/Levels/LevelTest_BuiltData.uasset
+Use -f if you really want to add them.
+
+[2019.08.11-20.32.33:532][180]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.32.33:812][180]LogSourceControl: RunCommand(lfs locks):
+
+[2019.08.11-20.32.33:812][180]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest_BuiltData.uasset"'
+[2019.08.11-20.32.33:832][180]LogSourceControl: RunCommand(status):
+!! GitHubTest/Content/Levels/LevelTest_BuiltData.uasset
+
+[2019.08.11-20.32.33:832][180]LogSourceControl: ParseStatusResults: 2) General case for one or more files (D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest_BuiltData.uasset, ...)
+[2019.08.11-20.32.33:832][180]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest_BuiltData.uasset) = '!! GitHubTest/Content/Levels/LevelTest_BuiltData.uasset' => 10
+[2019.08.11-20.32.33:832][180]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest_BuiltData.uasset) Not Locked
+[2019.08.11-20.32.33:832][180]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.32.33:842][180]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.32.33:842][180]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest_BuiltData.uasset"'
+[2019.08.11-20.32.33:862][180]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.32.33:862][180]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
+[2019.08.11-20.32.33:862][180]SourceControl: Error: GitHubTest/Content/Levels/LevelTest_BuiltData.uasset
+[2019.08.11-20.32.33:862][180]SourceControl: Error: Use -f if you really want to add them.
+[2019.08.11-20.32.33:885][180]LogFileHelpers: Warning: The following assets are writable on disk but not checked out from source control:
+/Game/Levels/LevelTest
+[2019.08.11-20.32.46:316][180]LogSlate: Window 'Writable Assets Not Checked Out' being destroyed
+[2019.08.11-20.32.49:002][485]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.11-20.32.58:543][608]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2019.08.11-20.32.58:547][608]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.32.58:821][608]LogSourceControl: RunCommand(lfs locks):
+
+[2019.08.11-20.32.58:821][608]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap"'
+[2019.08.11-20.32.58:841][608]LogSourceControl: RunCommand(status):
+ M GitHubTest/Content/Levels/LevelTest.umap
+
+[2019.08.11-20.32.58:841][608]LogSourceControl: ParseStatusResults: 2) General case for one or more files (D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap, ...)
+[2019.08.11-20.32.58:841][608]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) = ' M GitHubTest/Content/Levels/LevelTest.umap' => 4
+[2019.08.11-20.32.58:841][608]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) Not Locked
+[2019.08.11-20.32.58:841][608]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.32.58:861][608]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.32.58:861][608]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap"'
+[2019.08.11-20.32.58:881][608]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.32.58:881][608]LogSourceControl: RunCommand: 'git log --follow --date=raw --name-status --pretty=medium "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap"'
+[2019.08.11-20.32.58:991][608]LogSourceControl: RunCommand(log):
+commit 8329847cb72a6b50ea41bb8c9a7518667d8fe6c5
+Author: DrCaptainChef <DrCaptainChef@users.noreply.github.com>
+Date:   1565546533 -0400
+
+    Test Project Unreal
+    
+    Testing github commits with Unreal
+
+A	GitHubTest/Content/Levels/LevelTest.umap
+
+[2019.08.11-20.32.58:991][608]LogSourceControl: RunCommand: 'git ls-tree --long 8329847c "GitHubTest/Content/Levels/LevelTest.umap"'
+[2019.08.11-20.32.59:001][608]LogSourceControl: RunCommand(ls-tree):
+100644 blob 245cee446dd83f3f9bd50ee608242b74a28b6e9e   19270	GitHubTest/Content/Levels/LevelTest.umap
+
+[2019.08.11-20.32.59:001][608]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2019.08.11-20.32.59:021][608]LogSourceControl: RunCommand(log):
+c654ee96012de758f33a316cd59464a0005b59bb Update .gitignore
+
+[2019.08.11-20.32.59:022][608]LogSourceControl: RunDumpToFile: 'git -C "D:/Document/GitHub/GameJam" cat-file --filters 8329847cb72a6b50ea41bb8c9a7518667d8fe6c5:GitHubTest/Content/Levels/LevelTest.umap'
+[2019.08.11-20.32.59:042][608]LogSourceControl: Writed 'D:/Document/GitHub/GameJam/GitHubTest/Saved/Diff/temp-8329847cb72a6b50ea41bb8c9a7518667d8fe6c5-LevelTest.umap' (19270o)
+[2019.08.11-20.32.59:045][608]LogBlueprint: Warning: Attempted to query an old Blueprint package opened for diffing!
+[2019.08.11-20.32.59:045][608]LogAIModule: Creating AISystem for world temp-8329847cb72a6b50ea41bb8c9a7518667d8fe6c5-LevelTest
+[2019.08.11-20.33.03:306][114]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2019.08.11-20.33.03:310][114]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.33.03:602][114]LogSourceControl: RunCommand(lfs locks):
+
+[2019.08.11-20.33.03:602][114]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap"'
+[2019.08.11-20.33.03:622][114]LogSourceControl: RunCommand(status):
+ M GitHubTest/Content/Levels/LevelTest.umap
+
+[2019.08.11-20.33.03:622][114]LogSourceControl: ParseStatusResults: 2) General case for one or more files (D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap, ...)
+[2019.08.11-20.33.03:622][114]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) = ' M GitHubTest/Content/Levels/LevelTest.umap' => 4
+[2019.08.11-20.33.03:622][114]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) Not Locked
+[2019.08.11-20.33.03:622][114]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.33.03:632][114]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.33.03:632][114]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap"'
+[2019.08.11-20.33.03:652][114]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.33.03:652][114]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2019.08.11-20.33.03:672][114]LogSourceControl: RunCommand(log):
+c654ee96012de758f33a316cd59464a0005b59bb Update .gitignore
+
+[2019.08.11-20.33.03:690][114]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2019.08.11-20.33.03:694][114]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.33.03:981][114]LogSourceControl: RunCommand(lfs locks):
+
+[2019.08.11-20.33.03:981][114]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap"'
+[2019.08.11-20.33.04:001][114]LogSourceControl: RunCommand(status):
+ M GitHubTest/Content/Levels/LevelTest.umap
+
+[2019.08.11-20.33.04:001][114]LogSourceControl: ParseStatusResults: 2) General case for one or more files (D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap, ...)
+[2019.08.11-20.33.04:001][114]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) = ' M GitHubTest/Content/Levels/LevelTest.umap' => 4
+[2019.08.11-20.33.04:001][114]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) Not Locked
+[2019.08.11-20.33.04:001][114]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.33.04:011][114]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.33.04:011][114]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap"'
+[2019.08.11-20.33.04:031][114]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.33.04:031][114]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2019.08.11-20.33.04:051][114]LogSourceControl: RunCommand(log):
+c654ee96012de758f33a316cd59464a0005b59bb Update .gitignore
+
+[2019.08.11-20.33.04:052][114]LogSourceControl: ExecuteSynchronousCommand(CheckOut)
+[2019.08.11-20.33.04:055][114]LogSourceControl: RunCommand: 'git lfs lock "GitHubTest/Content/Levels/LevelTest.umap"'
+[2019.08.11-20.33.22:776][114]LogSourceControl: RunCommand(lfs lock):
+Locked GitHubTest/Content/Levels/LevelTest.umap
+
+[2019.08.11-20.33.22:776][114]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.33.23:796][114]LogSourceControl: RunCommand(lfs locks):
+GitHubTest/Content/Levels/LevelTest.umap	DrCaptainChef	ID:125142
+
+[2019.08.11-20.33.23:796][114]LogSourceControl: LockedFile(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap, DrCaptainChef)
+[2019.08.11-20.33.23:796][114]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap"'
+[2019.08.11-20.33.23:816][114]LogSourceControl: RunCommand(status):
+ M GitHubTest/Content/Levels/LevelTest.umap
+
+[2019.08.11-20.33.23:816][114]LogSourceControl: ParseStatusResults: 2) General case for one or more files (D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap, ...)
+[2019.08.11-20.33.23:816][114]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) = ' M GitHubTest/Content/Levels/LevelTest.umap' => 4
+[2019.08.11-20.33.23:816][114]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) Locked by 'DrCaptainChef'
+[2019.08.11-20.33.23:816][114]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.33.23:836][114]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.33.23:836][114]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap"'
+[2019.08.11-20.33.23:856][114]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.33.23:856][114]SourceControl: Locked GitHubTest/Content/Levels/LevelTest.umap
+[2019.08.11-20.33.29:816][821]LogSourceControl: IssueAsynchronousCommand(UpdateStatus)
+[2019.08.11-20.33.29:820][822]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.33.30:951][958]LogSourceControl: RunCommand(lfs locks):
+GitHubTest/Content/Levels/LevelTest.umap	DrCaptainChef	ID:125142
+
+[2019.08.11-20.33.30:951][958]LogSourceControl: LockedFile(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap, DrCaptainChef)
+[2019.08.11-20.33.30:951][958]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest_BuiltData.uasset"'
+[2019.08.11-20.33.30:969][960]LogSourceControl: RunCommand(status):
+!! GitHubTest/Content/Levels/LevelTest_BuiltData.uasset
+
+[2019.08.11-20.33.30:969][960]LogSourceControl: ParseStatusResults: 2) General case for one or more files (D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest_BuiltData.uasset, ...)
+[2019.08.11-20.33.30:969][960]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest_BuiltData.uasset) = '!! GitHubTest/Content/Levels/LevelTest_BuiltData.uasset' => 10
+[2019.08.11-20.33.30:969][960]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest_BuiltData.uasset) Not Locked
+[2019.08.11-20.33.30:969][960]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.33.30:985][962]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.33.30:985][962]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest_BuiltData.uasset"'
+[2019.08.11-20.33.31:010][965]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.33.31:010][965]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2019.08.11-20.33.31:034][968]LogSourceControl: RunCommand(log):
+c654ee96012de758f33a316cd59464a0005b59bb Update .gitignore
+
+[2019.08.11-20.33.35:473][497]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Test2.BP_Test2
+[2019.08.11-20.33.36:448][497]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2019.08.11-20.33.39:805][680]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (53.474 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.08.11-20.33.46:118][427]LogSourceControl: IssueAsynchronousCommand(UpdateStatus)
+[2019.08.11-20.33.46:123][428]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.33.47:229][558]LogSourceControl: RunCommand(lfs locks):
+GitHubTest/Content/Levels/LevelTest.umap	DrCaptainChef	ID:125142
+
+[2019.08.11-20.33.47:229][558]LogSourceControl: LockedFile(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap, DrCaptainChef)
+[2019.08.11-20.33.47:229][558]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset"'
+[2019.08.11-20.33.47:246][560]LogSourceControl: RunCommand(status):
+
+[2019.08.11-20.33.47:246][560]LogSourceControl: ParseStatusResults: 2) General case for one or more files (D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset, ...)
+[2019.08.11-20.33.47:246][560]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) not found but exists => unchanged
+[2019.08.11-20.33.47:246][560]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) Not Locked
+[2019.08.11-20.33.47:246][560]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.33.47:271][563]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.33.47:271][563]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset"'
+[2019.08.11-20.33.47:296][566]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.33.47:296][566]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2019.08.11-20.33.47:307][567]LogSourceControl: RunCommand(log):
+c654ee96012de758f33a316cd59464a0005b59bb Update .gitignore
+
+[2019.08.11-20.33.47:406][579]BlueprintLog: New page: Compile BP_Test2
+[2019.08.11-20.33.47:546][579]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2019.08.11-20.33.48:265][649]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2019.08.11-20.33.48:269][649]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.33.49:289][649]LogSourceControl: RunCommand(lfs locks):
+GitHubTest/Content/Levels/LevelTest.umap	DrCaptainChef	ID:125142
+
+[2019.08.11-20.33.49:289][649]LogSourceControl: LockedFile(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap, DrCaptainChef)
+[2019.08.11-20.33.49:289][649]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset"'
+[2019.08.11-20.33.49:310][649]LogSourceControl: RunCommand(status):
+
+[2019.08.11-20.33.49:310][649]LogSourceControl: ParseStatusResults: 2) General case for one or more files (D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset, ...)
+[2019.08.11-20.33.49:310][649]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) not found but exists => unchanged
+[2019.08.11-20.33.49:310][649]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) Not Locked
+[2019.08.11-20.33.49:310][649]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.33.49:320][649]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.33.49:320][649]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset"'
+[2019.08.11-20.33.49:340][649]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.33.49:340][649]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2019.08.11-20.33.49:360][649]LogSourceControl: RunCommand(log):
+c654ee96012de758f33a316cd59464a0005b59bb Update .gitignore
+
+[2019.08.11-20.33.49:378][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Test2" FILE="../../../../../../Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset" SILENT=true
+[2019.08.11-20.33.49:383][649]LogSavePackage: Moving '../../../../../../Document/GitHub/GameJam/GitHubTest/Saved/BP_Test2F943413D4A5B67962BC1FC8753A8F474.tmp' to '../../../../../../Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset'
+[2019.08.11-20.33.49:386][649]LogFileHelpers: Warning: The following assets are writable on disk but not checked out from source control:
+/Game/Blueprints/BP_Test2
+[2019.08.11-20.33.55:687][649]LogSlate: Window 'Writable Assets Not Checked Out' being destroyed
+[2019.08.11-20.33.56:778][779]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2019.08.11-20.33.56:783][779]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.33.57:828][779]LogSourceControl: RunCommand(lfs locks):
+GitHubTest/Content/Levels/LevelTest.umap	DrCaptainChef	ID:125142
+
+[2019.08.11-20.33.57:828][779]LogSourceControl: LockedFile(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap, DrCaptainChef)
+[2019.08.11-20.33.57:828][779]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Content"'
+[2019.08.11-20.33.57:848][779]LogSourceControl: RunCommand(status):
+ M GitHubTest/Content/Blueprints/BP_Test2.uasset
+ M GitHubTest/Content/Levels/LevelTest.umap
+!! GitHubTest/Content/Levels/LevelTest_BuiltData.uasset
+
+[2019.08.11-20.33.57:848][779]LogSourceControl: ParseStatusResults: 1) Special case for status of a directory (D:/Document/GitHub/GameJam/GitHubTest/Content/)
+[2019.08.11-20.33.57:848][779]LogSourceControl: RunCommand: 'git ls-files "D:/Document/GitHub/GameJam/GitHubTest/Content/"'
+[2019.08.11-20.33.57:858][779]LogSourceControl: RunCommand(ls-files):
+GitHubTest/Content/Blueprints/BP_Test.uasset
+GitHubTest/Content/Blueprints/BP_Test2.uasset
+GitHubTest/Content/Levels/LevelTest.umap
+
+[2019.08.11-20.33.57:858][779]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test.uasset) not found but exists => unchanged
+[2019.08.11-20.33.57:858][779]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test.uasset) Not Locked
+[2019.08.11-20.33.57:858][779]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) = ' M GitHubTest/Content/Blueprints/BP_Test2.uasset' => 4
+[2019.08.11-20.33.57:858][779]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) Not Locked
+[2019.08.11-20.33.57:858][779]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) = ' M GitHubTest/Content/Levels/LevelTest.umap' => 4
+[2019.08.11-20.33.57:858][779]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) Locked by 'DrCaptainChef'
+[2019.08.11-20.33.57:858][779]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.33.57:878][779]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.33.57:878][779]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Content"'
+[2019.08.11-20.33.57:899][779]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.33.57:899][779]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Config"'
+[2019.08.11-20.33.57:919][779]LogSourceControl: RunCommand(status):
+
+[2019.08.11-20.33.57:919][779]LogSourceControl: ParseStatusResults: 1) Special case for status of a directory (D:/Document/GitHub/GameJam/GitHubTest/Config/)
+[2019.08.11-20.33.57:919][779]LogSourceControl: RunCommand: 'git ls-files "D:/Document/GitHub/GameJam/GitHubTest/Config/"'
+[2019.08.11-20.33.57:939][779]LogSourceControl: RunCommand(ls-files):
+GitHubTest/Config/DefaultEditor.ini
+GitHubTest/Config/DefaultEngine.ini
+GitHubTest/Config/DefaultGame.ini
+
+[2019.08.11-20.33.57:939][779]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Config/DefaultEditor.ini) not found but exists => unchanged
+[2019.08.11-20.33.57:939][779]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Config/DefaultEditor.ini) Not Locked
+[2019.08.11-20.33.57:939][779]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Config/DefaultEngine.ini) not found but exists => unchanged
+[2019.08.11-20.33.57:939][779]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Config/DefaultEngine.ini) Not Locked
+[2019.08.11-20.33.57:939][779]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Config/DefaultGame.ini) not found but exists => unchanged
+[2019.08.11-20.33.57:939][779]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Config/DefaultGame.ini) Not Locked
+[2019.08.11-20.33.57:939][779]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.33.57:949][779]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.33.57:949][779]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Config"'
+[2019.08.11-20.33.57:969][779]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.33.57:969][779]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2019.08.11-20.33.57:989][779]LogSourceControl: RunCommand(log):
+c654ee96012de758f33a316cd59464a0005b59bb Update .gitignore
+
+[2019.08.11-20.34.02:871][350]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2019.08.11-20.34.02:875][350]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.34.03:867][350]LogSourceControl: RunCommand(lfs locks):
+GitHubTest/Content/Levels/LevelTest.umap	DrCaptainChef	ID:125142
+
+[2019.08.11-20.34.03:867][350]LogSourceControl: LockedFile(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap, DrCaptainChef)
+[2019.08.11-20.34.03:867][350]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset"'
+[2019.08.11-20.34.03:887][350]LogSourceControl: RunCommand(status):
+ M GitHubTest/Content/Blueprints/BP_Test2.uasset
+
+[2019.08.11-20.34.03:887][350]LogSourceControl: ParseStatusResults: 2) General case for one or more files (D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset, ...)
+[2019.08.11-20.34.03:887][350]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) = ' M GitHubTest/Content/Blueprints/BP_Test2.uasset' => 4
+[2019.08.11-20.34.03:887][350]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) Not Locked
+[2019.08.11-20.34.03:887][350]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.34.03:907][350]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.34.03:907][350]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset"'
+[2019.08.11-20.34.03:927][350]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.34.03:927][350]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2019.08.11-20.34.03:947][350]LogSourceControl: RunCommand(log):
+c654ee96012de758f33a316cd59464a0005b59bb Update .gitignore
+
+[2019.08.11-20.34.03:948][350]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2019.08.11-20.34.03:952][350]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.34.05:000][350]LogSourceControl: RunCommand(lfs locks):
+GitHubTest/Content/Levels/LevelTest.umap	DrCaptainChef	ID:125142
+
+[2019.08.11-20.34.05:000][350]LogSourceControl: LockedFile(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap, DrCaptainChef)
+[2019.08.11-20.34.05:000][350]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset"'
+[2019.08.11-20.34.05:020][350]LogSourceControl: RunCommand(status):
+ M GitHubTest/Content/Blueprints/BP_Test2.uasset
+
+[2019.08.11-20.34.05:020][350]LogSourceControl: ParseStatusResults: 2) General case for one or more files (D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset, ...)
+[2019.08.11-20.34.05:020][350]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) = ' M GitHubTest/Content/Blueprints/BP_Test2.uasset' => 4
+[2019.08.11-20.34.05:020][350]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) Not Locked
+[2019.08.11-20.34.05:020][350]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.34.05:040][350]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.34.05:040][350]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset"'
+[2019.08.11-20.34.05:060][350]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.34.05:060][350]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2019.08.11-20.34.05:080][350]LogSourceControl: RunCommand(log):
+c654ee96012de758f33a316cd59464a0005b59bb Update .gitignore
+
+[2019.08.11-20.34.05:081][350]LogSourceControl: ExecuteSynchronousCommand(CheckOut)
+[2019.08.11-20.34.05:084][350]LogSourceControl: RunCommand: 'git lfs lock "GitHubTest/Content/Blueprints/BP_Test2.uasset"'
+[2019.08.11-20.34.06:124][350]LogSourceControl: RunCommand(lfs lock):
+Locked GitHubTest/Content/Blueprints/BP_Test2.uasset
+
+[2019.08.11-20.34.06:124][350]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.34.07:144][350]LogSourceControl: RunCommand(lfs locks):
+GitHubTest/Content/Levels/LevelTest.umap	DrCaptainChef	ID:125142
+
+[2019.08.11-20.34.07:144][350]LogSourceControl: LockedFile(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap, DrCaptainChef)
+[2019.08.11-20.34.07:144][350]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset"'
+[2019.08.11-20.34.07:164][350]LogSourceControl: RunCommand(status):
+ M GitHubTest/Content/Blueprints/BP_Test2.uasset
+
+[2019.08.11-20.34.07:164][350]LogSourceControl: ParseStatusResults: 2) General case for one or more files (D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset, ...)
+[2019.08.11-20.34.07:164][350]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) = ' M GitHubTest/Content/Blueprints/BP_Test2.uasset' => 4
+[2019.08.11-20.34.07:164][350]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) Not Locked
+[2019.08.11-20.34.07:164][350]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.34.07:174][350]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.34.07:174][350]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset"'
+[2019.08.11-20.34.07:194][350]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.34.07:194][350]SourceControl: Locked GitHubTest/Content/Blueprints/BP_Test2.uasset
+[2019.08.11-20.34.13:005][350]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2019.08.11-20.34.14:794][565]LogSlate: Window 'BP_Test2' being destroyed
+[2019.08.11-20.34.14:795][565]LogSlate: Window 'BP_Test2' being destroyed
+[2019.08.11-20.34.17:849][912]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2019.08.11-20.34.17:853][912]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.34.18:871][912]LogSourceControl: RunCommand(lfs locks):
+GitHubTest/Content/Blueprints/BP_Test2.uasset	DrCaptainChef	ID:125143
+GitHubTest/Content/Levels/LevelTest.umap     	DrCaptainChef	ID:125142
+
+[2019.08.11-20.34.18:871][912]LogSourceControl: LockedFile(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset, DrCaptainChef)
+[2019.08.11-20.34.18:871][912]LogSourceControl: LockedFile(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap, DrCaptainChef)
+[2019.08.11-20.34.18:871][912]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset"'
+[2019.08.11-20.34.18:881][912]LogSourceControl: RunCommand(status):
+ M GitHubTest/Content/Blueprints/BP_Test2.uasset
+
+[2019.08.11-20.34.18:881][912]LogSourceControl: ParseStatusResults: 2) General case for one or more files (D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset, ...)
+[2019.08.11-20.34.18:881][912]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) = ' M GitHubTest/Content/Blueprints/BP_Test2.uasset' => 4
+[2019.08.11-20.34.18:881][912]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) Locked by 'DrCaptainChef'
+[2019.08.11-20.34.18:881][912]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.34.18:901][912]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.34.18:901][912]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset"'
+[2019.08.11-20.34.18:921][912]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.34.18:921][912]LogSourceControl: RunCommand: 'git log --follow --date=raw --name-status --pretty=medium "D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset"'
+[2019.08.11-20.34.19:201][912]LogSourceControl: RunCommand(log):
+commit 948fc0b2ae15375929770898fb09b7d3b869470d
+Author: DrCaptainChef <DrCaptainChef@users.noreply.github.com>
+Date:   1565547233 -0400
+
+    Moved gitignore again
+
+C061	GitHubTest/Content/Blueprints/BP_Test.uasset	GitHubTest/Content/Blueprints/BP_Test2.uasset
+
+commit 856807f39787cb5667088a0ac25a64f20831d4ed
+Author: DrCaptainChef <DrCaptainChef@users.noreply.github.com>
+Date:   1565546624 -0400
+
+    Commiting a blueprint
+
+A	GitHubTest/Content/Blueprints/BP_Test.uasset
+
+[2019.08.11-20.34.19:201][912]LogSourceControl: RunCommand: 'git ls-tree --long 948fc0b2 "GitHubTest/Content/Blueprints/BP_Test2.uasset"'
+[2019.08.11-20.34.19:211][912]LogSourceControl: RunCommand(ls-tree):
+100644 blob 3ff889c4b022a107c6b0fe2889a5cfbb986e984a   19054	GitHubTest/Content/Blueprints/BP_Test2.uasset
+
+[2019.08.11-20.34.19:211][912]LogSourceControl: RunCommand: 'git ls-tree --long 856807f3 "GitHubTest/Content/Blueprints/BP_Test.uasset"'
+[2019.08.11-20.34.19:231][912]LogSourceControl: RunCommand(ls-tree):
+100644 blob 428890685f0e783c00522fc8b9a0d0eeb8ccac11   19039	GitHubTest/Content/Blueprints/BP_Test.uasset
+
+[2019.08.11-20.34.19:231][912]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2019.08.11-20.34.19:251][912]LogSourceControl: RunCommand(log):
+c654ee96012de758f33a316cd59464a0005b59bb Update .gitignore
+
+[2019.08.11-20.34.19:252][912]LogSourceControl: RunDumpToFile: 'git -C "D:/Document/GitHub/GameJam" cat-file --filters 948fc0b2ae15375929770898fb09b7d3b869470d:GitHubTest/Content/Blueprints/BP_Test2.uasset'
+[2019.08.11-20.34.19:275][912]LogSourceControl: Writed 'D:/Document/GitHub/GameJam/GitHubTest/Saved/Diff/temp-948fc0b2ae15375929770898fb09b7d3b869470d-BP_Test2.uasset' (19054o)
+[2019.08.11-20.34.19:278][912]LogBlueprint: Warning: Attempted to query an old Blueprint package opened for diffing!
+[2019.08.11-20.34.19:419][912]LogSlate: Took 0.015740 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.08.11-20.34.41:548][511]LogSlate: Window 'BP_Test2 - Blueprint Diff' being destroyed
+[2019.08.11-20.34.59:360][630]LogSourceControl: IssueAsynchronousCommand(Connect)
+[2019.08.11-20.34.59:364][631]LogSourceControl: RunCommand: 'git version'
+[2019.08.11-20.34.59:406][636]LogSourceControl: RunCommand(version):
+git version 2.22.0.windows.1
+
+[2019.08.11-20.34.59:406][636]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.35.00:456][762]LogSourceControl: RunCommand(lfs locks):
+GitHubTest/Content/Blueprints/BP_Test2.uasset	DrCaptainChef	ID:125143
+GitHubTest/Content/Levels/LevelTest.umap     	DrCaptainChef	ID:125142
+
+[2019.08.11-20.35.00:456][762]LogSourceControl: LockedFile(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset, DrCaptainChef)
+[2019.08.11-20.35.00:456][762]LogSourceControl: LockedFile(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap, DrCaptainChef)
+[2019.08.11-20.35.00:456][762]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Content"'
+[2019.08.11-20.35.00:490][766]LogSourceControl: RunCommand(status):
+ M GitHubTest/Content/Blueprints/BP_Test2.uasset
+ M GitHubTest/Content/Levels/LevelTest.umap
+!! GitHubTest/Content/Levels/LevelTest_BuiltData.uasset
+
+[2019.08.11-20.35.00:490][766]LogSourceControl: ParseStatusResults: 1) Special case for status of a directory (D:/Document/GitHub/GameJam/GitHubTest/Content/)
+[2019.08.11-20.35.00:490][766]LogSourceControl: RunCommand: 'git ls-files "D:/Document/GitHub/GameJam/GitHubTest/Content/"'
+[2019.08.11-20.35.00:515][769]LogSourceControl: RunCommand(ls-files):
+GitHubTest/Content/Blueprints/BP_Test.uasset
+GitHubTest/Content/Blueprints/BP_Test2.uasset
+GitHubTest/Content/Levels/LevelTest.umap
+
+[2019.08.11-20.35.00:515][769]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test.uasset) not found but exists => unchanged
+[2019.08.11-20.35.00:515][769]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test.uasset) Not Locked
+[2019.08.11-20.35.00:515][769]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) = ' M GitHubTest/Content/Blueprints/BP_Test2.uasset' => 4
+[2019.08.11-20.35.00:515][769]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) Locked by 'DrCaptainChef'
+[2019.08.11-20.35.00:515][769]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) = ' M GitHubTest/Content/Levels/LevelTest.umap' => 4
+[2019.08.11-20.35.00:515][769]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) Locked by 'DrCaptainChef'
+[2019.08.11-20.35.00:515][769]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.35.00:531][771]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.35.00:531][771]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Content"'
+[2019.08.11-20.35.00:548][773]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.35.00:548][773]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Config"'
+[2019.08.11-20.35.00:574][776]LogSourceControl: RunCommand(status):
+
+[2019.08.11-20.35.00:574][776]LogSourceControl: ParseStatusResults: 1) Special case for status of a directory (D:/Document/GitHub/GameJam/GitHubTest/Config/)
+[2019.08.11-20.35.00:574][776]LogSourceControl: RunCommand: 'git ls-files "D:/Document/GitHub/GameJam/GitHubTest/Config/"'
+[2019.08.11-20.35.00:590][778]LogSourceControl: RunCommand(ls-files):
+GitHubTest/Config/DefaultEditor.ini
+GitHubTest/Config/DefaultEngine.ini
+GitHubTest/Config/DefaultGame.ini
+
+[2019.08.11-20.35.00:590][778]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Config/DefaultEditor.ini) not found but exists => unchanged
+[2019.08.11-20.35.00:590][778]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Config/DefaultEditor.ini) Not Locked
+[2019.08.11-20.35.00:590][778]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Config/DefaultEngine.ini) not found but exists => unchanged
+[2019.08.11-20.35.00:590][778]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Config/DefaultEngine.ini) Not Locked
+[2019.08.11-20.35.00:590][778]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Config/DefaultGame.ini) not found but exists => unchanged
+[2019.08.11-20.35.00:590][778]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Config/DefaultGame.ini) Not Locked
+[2019.08.11-20.35.00:590][778]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.35.00:615][781]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.35.00:615][781]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Config"'
+[2019.08.11-20.35.00:632][783]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.35.00:632][783]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2019.08.11-20.35.00:657][786]LogSourceControl: RunCommand(log):
+c654ee96012de758f33a316cd59464a0005b59bb Update .gitignore
+
+[2019.08.11-20.35.00:657][786]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.35.01:678][908]LogSourceControl: RunCommand(lfs locks):
+GitHubTest/Content/Blueprints/BP_Test2.uasset	DrCaptainChef	ID:125143
+GitHubTest/Content/Levels/LevelTest.umap     	DrCaptainChef	ID:125142
+
+[2019.08.11-20.35.01:678][908]SourceControl: GitHubTest/Content/Blueprints/BP_Test2.uasset	DrCaptainChef	ID:125143
+[2019.08.11-20.35.01:678][908]SourceControl: GitHubTest/Content/Levels/LevelTest.umap     	DrCaptainChef	ID:125142
+[2019.08.11-20.35.01:679][908]LogSlate: Window 'Source Control Login' being destroyed
+[2019.08.11-20.35.30:701][709]LogSourceControl: IssueAsynchronousCommand(UpdateStatus)
+[2019.08.11-20.35.30:702][709]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.35.32:792][941]LogSourceControl: RunCommand(lfs locks):
+GitHubTest/Content/Blueprints/BP_Test2.uasset	DrCaptainChef	ID:125143
+GitHubTest/Content/Levels/LevelTest.umap     	DrCaptainChef	ID:125142
+
+[2019.08.11-20.35.32:792][941]LogSourceControl: LockedFile(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset, DrCaptainChef)
+[2019.08.11-20.35.32:792][941]LogSourceControl: LockedFile(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap, DrCaptainChef)
+[2019.08.11-20.35.32:792][941]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Games/Epic Games Store/UE_4.22/Engine/Content"'
+[2019.08.11-20.35.32:821][944]LogSourceControl: RunCommand(status):
+
+[2019.08.11-20.35.32:821][944]LogSourceControl: Warning: RunCommand(status) ReturnCode=128:
+fatal: D:/Games/Epic Games Store/UE_4.22/Engine/Content: 'D:/Games/Epic Games Store/UE_4.22/Engine/Content' is outside repository
+
+[2019.08.11-20.35.32:821][944]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.35.32:855][948]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.35.32:855][948]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Games/Epic Games Store/UE_4.22/Engine/Content"'
+[2019.08.11-20.35.32:880][951]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.35.32:880][951]LogSourceControl: Warning: RunCommand(diff --name-only origin/master HEAD) ReturnCode=128:
+fatal: D:/Games/Epic Games Store/UE_4.22/Engine/Content: 'D:/Games/Epic Games Store/UE_4.22/Engine/Content' is outside repository
+
+[2019.08.11-20.35.32:880][951]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Content"'
+[2019.08.11-20.35.32:911][955]LogSourceControl: RunCommand(status):
+ M GitHubTest/Content/Blueprints/BP_Test2.uasset
+ M GitHubTest/Content/Levels/LevelTest.umap
+!! GitHubTest/Content/Levels/LevelTest_BuiltData.uasset
+
+[2019.08.11-20.35.32:911][955]LogSourceControl: ParseStatusResults: 1) Special case for status of a directory (D:/Document/GitHub/GameJam/GitHubTest/Content/)
+[2019.08.11-20.35.32:911][955]LogSourceControl: RunCommand: 'git ls-files "D:/Document/GitHub/GameJam/GitHubTest/Content/"'
+[2019.08.11-20.35.32:929][957]LogSourceControl: RunCommand(ls-files):
+GitHubTest/Content/Blueprints/BP_Test.uasset
+GitHubTest/Content/Blueprints/BP_Test2.uasset
+GitHubTest/Content/Levels/LevelTest.umap
+
+[2019.08.11-20.35.32:929][957]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test.uasset) not found but exists => unchanged
+[2019.08.11-20.35.32:929][957]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test.uasset) Not Locked
+[2019.08.11-20.35.32:929][957]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) = ' M GitHubTest/Content/Blueprints/BP_Test2.uasset' => 4
+[2019.08.11-20.35.32:929][957]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) Locked by 'DrCaptainChef'
+[2019.08.11-20.35.32:929][957]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) = ' M GitHubTest/Content/Levels/LevelTest.umap' => 4
+[2019.08.11-20.35.32:929][957]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) Locked by 'DrCaptainChef'
+[2019.08.11-20.35.32:929][957]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.35.32:958][960]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.35.32:958][960]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Content"'
+[2019.08.11-20.35.32:984][963]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.35.32:984][963]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Config"'
+[2019.08.11-20.35.33:017][967]LogSourceControl: RunCommand(status):
+
+[2019.08.11-20.35.33:017][967]LogSourceControl: ParseStatusResults: 1) Special case for status of a directory (D:/Document/GitHub/GameJam/GitHubTest/Config/)
+[2019.08.11-20.35.33:017][967]LogSourceControl: RunCommand: 'git ls-files "D:/Document/GitHub/GameJam/GitHubTest/Config/"'
+[2019.08.11-20.35.33:042][970]LogSourceControl: RunCommand(ls-files):
+GitHubTest/Config/DefaultEditor.ini
+GitHubTest/Config/DefaultEngine.ini
+GitHubTest/Config/DefaultGame.ini
+
+[2019.08.11-20.35.33:042][970]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Config/DefaultEditor.ini) not found but exists => unchanged
+[2019.08.11-20.35.33:042][970]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Config/DefaultEditor.ini) Not Locked
+[2019.08.11-20.35.33:042][970]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Config/DefaultEngine.ini) not found but exists => unchanged
+[2019.08.11-20.35.33:042][970]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Config/DefaultEngine.ini) Not Locked
+[2019.08.11-20.35.33:042][970]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Config/DefaultGame.ini) not found but exists => unchanged
+[2019.08.11-20.35.33:042][970]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Config/DefaultGame.ini) Not Locked
+[2019.08.11-20.35.33:042][970]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.35.33:067][973]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.35.33:067][973]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Config"'
+[2019.08.11-20.35.33:095][976]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.35.33:095][976]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/GitHubTest.uproject"'
+[2019.08.11-20.35.33:120][979]LogSourceControl: RunCommand(status):
+
+[2019.08.11-20.35.33:120][979]LogSourceControl: ParseStatusResults: 2) General case for one or more files (D:/Document/GitHub/GameJam/GitHubTest/GitHubTest.uproject, ...)
+[2019.08.11-20.35.33:120][979]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/GitHubTest.uproject) not found but exists => unchanged
+[2019.08.11-20.35.33:120][979]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/GitHubTest.uproject) Not Locked
+[2019.08.11-20.35.33:120][979]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.35.33:146][982]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.35.33:146][982]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/GitHubTest.uproject"'
+[2019.08.11-20.35.33:180][986]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.35.33:180][986]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2019.08.11-20.35.33:200][989]LogSourceControl: RunCommand(log):
+c654ee96012de758f33a316cd59464a0005b59bb Update .gitignore
+
+[2019.08.11-20.35.33:205][989]SourceControl: fatal: D:/Games/Epic Games Store/UE_4.22/Engine/Content: 'D:/Games/Epic Games Store/UE_4.22/Engine/Content' is outside repository
+[2019.08.11-20.35.33:206][989]SourceControl: fatal: D:/Games/Epic Games Store/UE_4.22/Engine/Content: 'D:/Games/Epic Games Store/UE_4.22/Engine/Content' is outside repository
+[2019.08.11-20.35.54:758][989]LogSlate: Window 'Submit Files' being destroyed
+[2019.08.11-20.36.14:132][302]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2019.08.11-20.36.14:136][302]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.36.15:122][302]LogSourceControl: RunCommand(lfs locks):
+GitHubTest/Content/Blueprints/BP_Test2.uasset	DrCaptainChef	ID:125143
+GitHubTest/Content/Levels/LevelTest.umap     	DrCaptainChef	ID:125142
+
+[2019.08.11-20.36.15:122][302]LogSourceControl: LockedFile(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset, DrCaptainChef)
+[2019.08.11-20.36.15:122][302]LogSourceControl: LockedFile(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap, DrCaptainChef)
+[2019.08.11-20.36.15:122][302]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset"'
+[2019.08.11-20.36.15:142][302]LogSourceControl: RunCommand(status):
+ M GitHubTest/Content/Blueprints/BP_Test2.uasset
+
+[2019.08.11-20.36.15:142][302]LogSourceControl: ParseStatusResults: 2) General case for one or more files (D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset, ...)
+[2019.08.11-20.36.15:142][302]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) = ' M GitHubTest/Content/Blueprints/BP_Test2.uasset' => 4
+[2019.08.11-20.36.15:142][302]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) Locked by 'DrCaptainChef'
+[2019.08.11-20.36.15:142][302]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.36.15:152][302]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.36.15:152][302]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset"'
+[2019.08.11-20.36.15:172][302]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.36.15:172][302]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2019.08.11-20.36.15:192][302]LogSourceControl: RunCommand(log):
+c654ee96012de758f33a316cd59464a0005b59bb Update .gitignore
+
+[2019.08.11-20.36.21:261][302]LogSlate: Window 'Revert Files' being destroyed
+[2019.08.11-20.36.39:810][491]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (45.047 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.08.11-20.37.38:429][501]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2019.08.11-20.37.38:434][501]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.37.39:479][501]LogSourceControl: RunCommand(lfs locks):
+GitHubTest/Content/Blueprints/BP_Test2.uasset	DrCaptainChef	ID:125143
+GitHubTest/Content/Levels/LevelTest.umap     	DrCaptainChef	ID:125142
+
+[2019.08.11-20.37.39:479][501]LogSourceControl: LockedFile(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset, DrCaptainChef)
+[2019.08.11-20.37.39:479][501]LogSourceControl: LockedFile(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap, DrCaptainChef)
+[2019.08.11-20.37.39:479][501]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset"'
+[2019.08.11-20.37.39:499][501]LogSourceControl: RunCommand(status):
+ M GitHubTest/Content/Blueprints/BP_Test2.uasset
+
+[2019.08.11-20.37.39:499][501]LogSourceControl: ParseStatusResults: 2) General case for one or more files (D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset, ...)
+[2019.08.11-20.37.39:499][501]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) = ' M GitHubTest/Content/Blueprints/BP_Test2.uasset' => 4
+[2019.08.11-20.37.39:499][501]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) Locked by 'DrCaptainChef'
+[2019.08.11-20.37.39:499][501]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.37.39:520][501]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.37.39:520][501]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset"'
+[2019.08.11-20.37.39:540][501]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.37.39:540][501]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2019.08.11-20.37.39:560][501]LogSourceControl: RunCommand(log):
+c654ee96012de758f33a316cd59464a0005b59bb Update .gitignore
+
+[2019.08.11-20.37.41:895][501]LogSlate: Window 'Revert Files' being destroyed
+[2019.08.11-20.37.41:896][501]LogSourceControl: ExecuteSynchronousCommand(Revert)
+[2019.08.11-20.37.41:901][501]LogSourceControl: RunCommand: 'git reset "D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset"'
+[2019.08.11-20.37.41:946][501]LogSourceControl: RunCommand(reset):
+Unstaged changes after reset:
+M	GitHubTest/Content/Blueprints/BP_Test2.uasset
+M	GitHubTest/Content/Levels/LevelTest.umap
+M	GitHubTest/Intermediate/CachedAssetRegistry.bin
+M	GitHubTest/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+M	GitHubTest/Saved/Logs/GitHubTest.log
+
+[2019.08.11-20.37.41:946][501]LogSourceControl: RunCommand: 'git checkout "D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset"'
+[2019.08.11-20.37.41:966][501]LogSourceControl: RunCommand(checkout):
+
+[2019.08.11-20.37.41:966][501]LogSourceControl: Warning: RunCommand(checkout) ReturnCode=0:
+Updated 1 path from the index
+
+[2019.08.11-20.37.41:966][501]LogSourceControl: RunCommand: 'git lfs unlock "GitHubTest/Content/Blueprints/BP_Test2.uasset"'
+[2019.08.11-20.37.43:076][501]LogSourceControl: RunCommand(lfs unlock):
+Unlocked GitHubTest/Content/Blueprints/BP_Test2.uasset
+
+[2019.08.11-20.37.43:076][501]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.37.44:047][501]LogSourceControl: RunCommand(lfs locks):
+GitHubTest/Content/Levels/LevelTest.umap	DrCaptainChef	ID:125142
+
+[2019.08.11-20.37.44:047][501]LogSourceControl: LockedFile(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap, DrCaptainChef)
+[2019.08.11-20.37.44:047][501]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset"'
+[2019.08.11-20.37.44:067][501]LogSourceControl: RunCommand(status):
+
+[2019.08.11-20.37.44:067][501]LogSourceControl: ParseStatusResults: 2) General case for one or more files (D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset, ...)
+[2019.08.11-20.37.44:067][501]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) not found but exists => unchanged
+[2019.08.11-20.37.44:067][501]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) Not Locked
+[2019.08.11-20.37.44:067][501]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.37.44:087][501]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.37.44:087][501]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset"'
+[2019.08.11-20.37.44:097][501]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.37.44:097][501]SourceControl: Unlocked GitHubTest/Content/Blueprints/BP_Test2.uasset
+[2019.08.11-20.37.44:099][501]LogUObjectGlobals: Reloading 1 Package(s):
+	Asset Name: /Game/Blueprints/BP_Test2
+[2019.08.11-20.37.44:132][501]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2019.08.11-20.37.44:281][501]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2019.08.11-20.37.44:284][501]LogSourceControl: IssueAsynchronousCommand(UpdateStatus)
+[2019.08.11-20.37.44:291][502]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.37.45:337][617]LogSourceControl: RunCommand(lfs locks):
+GitHubTest/Content/Levels/LevelTest.umap	DrCaptainChef	ID:125142
+
+[2019.08.11-20.37.45:337][617]LogSourceControl: LockedFile(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap, DrCaptainChef)
+[2019.08.11-20.37.45:337][617]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset"'
+[2019.08.11-20.37.45:363][620]LogSourceControl: RunCommand(status):
+
+[2019.08.11-20.37.45:363][620]LogSourceControl: ParseStatusResults: 2) General case for one or more files (D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset, ...)
+[2019.08.11-20.37.45:363][620]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) not found but exists => unchanged
+[2019.08.11-20.37.45:363][620]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset) Not Locked
+[2019.08.11-20.37.45:363][620]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.37.45:380][622]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.37.45:380][622]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test2.uasset"'
+[2019.08.11-20.37.45:397][624]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.37.45:397][624]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2019.08.11-20.37.45:420][627]LogSourceControl: RunCommand(log):
+c654ee96012de758f33a316cd59464a0005b59bb Update .gitignore
+
+[2019.08.11-20.37.49:039][ 57]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2019.08.11-20.37.49:043][ 57]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.37.50:006][ 57]LogSourceControl: RunCommand(lfs locks):
+GitHubTest/Content/Levels/LevelTest.umap	DrCaptainChef	ID:125142
+
+[2019.08.11-20.37.50:006][ 57]LogSourceControl: LockedFile(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap, DrCaptainChef)
+[2019.08.11-20.37.50:006][ 57]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap"'
+[2019.08.11-20.37.50:026][ 57]LogSourceControl: RunCommand(status):
+ M GitHubTest/Content/Levels/LevelTest.umap
+
+[2019.08.11-20.37.50:026][ 57]LogSourceControl: ParseStatusResults: 2) General case for one or more files (D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap, ...)
+[2019.08.11-20.37.50:026][ 57]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) = ' M GitHubTest/Content/Levels/LevelTest.umap' => 4
+[2019.08.11-20.37.50:026][ 57]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) Locked by 'DrCaptainChef'
+[2019.08.11-20.37.50:026][ 57]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.37.50:046][ 57]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.37.50:046][ 57]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap"'
+[2019.08.11-20.37.50:066][ 57]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.37.50:066][ 57]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2019.08.11-20.37.50:086][ 57]LogSourceControl: RunCommand(log):
+c654ee96012de758f33a316cd59464a0005b59bb Update .gitignore
+
+[2019.08.11-20.37.51:756][ 57]LogSlate: Window 'Revert Files' being destroyed
+[2019.08.11-20.37.51:759][ 57]LogSourceControl: ExecuteSynchronousCommand(Revert)
+[2019.08.11-20.37.51:765][ 57]LogSourceControl: RunCommand: 'git reset "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap"'
+[2019.08.11-20.37.51:803][ 57]LogSourceControl: RunCommand(reset):
+Unstaged changes after reset:
+M	GitHubTest/Content/Levels/LevelTest.umap
+M	GitHubTest/Intermediate/CachedAssetRegistry.bin
+M	GitHubTest/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+M	GitHubTest/Saved/Logs/GitHubTest.log
+
+[2019.08.11-20.37.51:803][ 57]LogSourceControl: RunCommand: 'git checkout "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap"'
+[2019.08.11-20.37.51:894][ 57]LogSourceControl: RunCommand(checkout):
+
+[2019.08.11-20.37.51:894][ 57]LogSourceControl: Warning: RunCommand(checkout) ReturnCode=0:
+Updated 1 path from the index
+
+[2019.08.11-20.37.51:894][ 57]LogSourceControl: RunCommand: 'git lfs unlock "GitHubTest/Content/Levels/LevelTest.umap"'
+[2019.08.11-20.37.53:075][ 57]LogSourceControl: RunCommand(lfs unlock):
+Unlocked GitHubTest/Content/Levels/LevelTest.umap
+
+[2019.08.11-20.37.53:075][ 57]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.37.54:035][ 57]LogSourceControl: RunCommand(lfs locks):
+
+[2019.08.11-20.37.54:035][ 57]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap"'
+[2019.08.11-20.37.54:056][ 57]LogSourceControl: RunCommand(status):
+
+[2019.08.11-20.37.54:056][ 57]LogSourceControl: ParseStatusResults: 2) General case for one or more files (D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap, ...)
+[2019.08.11-20.37.54:056][ 57]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) not found but exists => unchanged
+[2019.08.11-20.37.54:056][ 57]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) Not Locked
+[2019.08.11-20.37.54:056][ 57]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.37.54:077][ 57]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.37.54:077][ 57]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap"'
+[2019.08.11-20.37.54:097][ 57]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.37.54:097][ 57]SourceControl: Unlocked GitHubTest/Content/Levels/LevelTest.umap
+[2019.08.11-20.37.54:098][ 57]LightingResults: New page: Lighting Build
+[2019.08.11-20.37.54:098][ 57]MapCheck: New page: Map Check
+[2019.08.11-20.37.54:098][ 57]LightingResults: New page: Lighting Build
+[2019.08.11-20.37.54:126][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2019.08.11-20.37.54:143][ 57]LogAIModule: Creating AISystem for world Untitled
+[2019.08.11-20.37.54:146][ 57]LoadErrors: New page: New Map
+[2019.08.11-20.37.54:148][ 57]LogAIModule: Creating AISystem for world LevelTest
+[2019.08.11-20.37.54:152][ 57]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/LevelTest.LevelTest
+[2019.08.11-20.37.54:173][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2019.08.11-20.37.54:174][ 57]Cmd: MAP LOAD FILE="../../../../../../Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.08.11-20.37.54:174][ 57]LightingResults: New page: Lighting Build
+[2019.08.11-20.37.54:175][ 57]LoadErrors: New page: Loading map: LevelTest.umap
+[2019.08.11-20.37.54:175][ 57]MapCheck: New page: Map Check
+[2019.08.11-20.37.54:175][ 57]LightingResults: New page: Lighting Build
+[2019.08.11-20.37.54:197][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2019.08.11-20.37.54:220][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2019.08.11-20.37.54:243][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2019.08.11-20.37.54:244][ 57]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.08.11-20.37.54:272][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2019.08.11-20.37.54:277][ 57]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.08.11-20.37.54:277][ 57]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,05ms to complete.
+[2019.08.11-20.37.54:279][ 57]LogFileHelpers: Loading map 'LevelTest' took 0.106
+[2019.08.11-20.37.54:284][ 57]LogSourceControl: IssueAsynchronousCommand(UpdateStatus)
+[2019.08.11-20.37.54:297][ 58]LogSourceControl: RunCommand: 'git lfs locks'
+[2019.08.11-20.37.55:267][175]LogSourceControl: RunCommand(lfs locks):
+
+[2019.08.11-20.37.55:267][175]LogSourceControl: RunCommand: 'git status --porcelain --ignored "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap"'
+[2019.08.11-20.37.55:293][178]LogSourceControl: RunCommand(status):
+
+[2019.08.11-20.37.55:293][178]LogSourceControl: ParseStatusResults: 2) General case for one or more files (D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap, ...)
+[2019.08.11-20.37.55:293][178]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) not found but exists => unchanged
+[2019.08.11-20.37.55:293][178]LogSourceControl: Status(D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap) Not Locked
+[2019.08.11-20.37.55:293][178]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2019.08.11-20.37.55:309][180]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2019.08.11-20.37.55:309][180]LogSourceControl: RunCommand: 'git diff --name-only origin/master HEAD "D:/Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap"'
+[2019.08.11-20.37.55:326][182]LogSourceControl: RunCommand(diff --name-only origin/master HEAD):
+
+[2019.08.11-20.37.55:327][182]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2019.08.11-20.37.55:343][184]LogSourceControl: RunCommand(log):
+c654ee96012de758f33a316cd59464a0005b59bb Update .gitignore
+
