@@ -613,3 +613,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.08.11-18.00.27:774][942]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
 [2019.08.11-18.00.27:968][942]LogSavePackage: Moving '../../../../../../Document/GitHub/GameJam/GitHubTest/Saved/LevelTest3FE4DED14D2F09345CC9A396F710481E.tmp' to '../../../../../../Document/GitHub/GameJam/GitHubTest/Content/Levels/LevelTest.umap'
 [2019.08.11-18.01.06:715][ 45]LogSlate: Took 0.013672 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.08.11-18.03.11:999][628]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2019.08.11-18.03.13:718][628]LogSlate: Window 'Save Content' being destroyed
+[2019.08.11-18.03.13:733][628]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Test" FILE="../../../../../../Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test.uasset" SILENT=true
+[2019.08.11-18.03.13:738][628]LogSavePackage: Moving '../../../../../../Document/GitHub/GameJam/GitHubTest/Saved/BP_TestFDAF43664359CB14BA87F18B68CD8AE5.tmp' to '../../../../../../Document/GitHub/GameJam/GitHubTest/Content/Blueprints/BP_Test.uasset'
